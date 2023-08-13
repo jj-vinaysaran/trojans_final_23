@@ -13,7 +13,7 @@
     position: relative;
     top: 20px;
     font-size: 3.5vw;
-    color: #19e5f8;
+    color: white;
     font-family: 'Chakra Petch', sans-serif;    }
   .home_tags{
     font-size: 4vw;
@@ -49,7 +49,7 @@
     /* bottom: 5%; */
   }
   #dept-intro {
-    color: #19e5f8;
+    color: white;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 3.5vw;
   
@@ -57,7 +57,7 @@
     /* bottom: 2%; */
   }
   #presents {
-    color: #19e5f8;
+    color: white;
     justify-content: center;
     align-items: center;
     font-size: 40px;
@@ -65,7 +65,7 @@
     bottom: 3%;
   }
   #home-intro {
-    color: #19e5f8;
+    color: white;
   
     font-size: 1.8vw;
   
@@ -130,9 +130,8 @@
       text-decoration: none;
       list-style: none;
       font-weight: bold;
-      background: #19e5f8;
-      box-shadow: 0 0 5px #19e5f8, 0 0 15px #19e5f8, 0 0 30px #19e5f8,
-        0 0 60px #19e5f8;
+      box-shadow: 0 0 5px #1ce1ff, 0 0 15px #1ce1ff, 0 0 30px #1ce1ff,
+        0 0 60px #1ce1ff;
     }
     .register-button-home:hover {
       background-color: #1ce1ff;
@@ -145,19 +144,21 @@
       top: 5%;
     }
     #dept-intro {
-      font-size: 5.8vw;
+      font-size: 6.6vw;
       position: relative;
-      color: #19e5f8;
+      color: white;
       bottom: 0%;
     }
     .tags_intro{
       font-size: 4vw;
+      text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
+    color: red;
     }
     .heroPTag {
-      font-size:7vw;
+      font-size:10vw;
     }
     #presents {
-      color: #19e5f8;
+      color: white;
       justify-content: center;
       align-items: center;
       font-size: 5vw;
@@ -165,7 +166,7 @@
       top: 2%;
     }
     #home-intro {
-      color: #19e5f8;
+      color: white;
   
       font-size: 4vw;
   
