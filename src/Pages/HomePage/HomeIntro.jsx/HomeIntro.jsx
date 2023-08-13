@@ -6,11 +6,11 @@ import {Link} from 'react-router-dom'
 function HomeIntro() {
   return (
     <div className="herohomecontainer">
-      <p className="heroPTag">DEPARTMENT OF</p>
-      <h3 id="dept-intro">INFORMATION TECHNOLOGY</h3>
-      <p className="heroPTag"> PRESENTS</p>
+      <p className="heroPTag"><span className='home_tags'>{"< "}</span>DEPARTMENT OF<span className='home_tags'>{" />"}</span></p>
+      <h3 id="dept-intro"><span className='home_tags'>{"< "}</span>INFORMATION TECHNOLOGY<span className='home_tags'>{" />"}</span></h3>
+      <p className="heroPTag"> <span className='home_tags'>{"< "}</span>PRESENTS<span className='home_tags'>{" />"}</span></p>
       <img src={Trojansimg} id="logo_trojans"  alt=""/>
-      <h3 id="home-intro">A NATIONAL LEVEL TECHNICAL SYMPOSIUM</h3>
+      <h3 id="home-intro"><span className='tags_intro'>{"<"}</span> A NATIONAL LEVEL TECHNICAL SYMPOSIUM <span className='tags_intro'>{" />"}</span></h3>
 
       <Link to="/registration" className="register-button-home">
         Register

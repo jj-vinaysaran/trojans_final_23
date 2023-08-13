@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -32,6 +34,8 @@ box-shadow: rgb(188, 19, 254) 0px 0px 4px, rgb(188, 19, 254) 0px 0px 11px, rgb(1
 .events_heading{
     text-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px;
     font-size: 3rem;
+    font-family: 'Cinzel', serif;
+
     border-bottom: 4px solid rgb(188, 19, 254);
     font-weight: bold;
 justify-self:  flex-end;
