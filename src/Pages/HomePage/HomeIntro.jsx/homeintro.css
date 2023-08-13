@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chakra+Petch:ital@1&display=swap');
 .herohomecontainer {
     display: flex;
     flex-direction: column;
@@ -11,10 +12,15 @@
   .heroPTag {
     position: relative;
     top: 20px;
+    font-size: 3.5vw;
+    color: #19e5f8;
+    font-family: 'Chakra Petch', sans-serif;    }
+  .home_tags{
     font-size: 4vw;
-    color: #fff;
+    text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
+    color: red;
+    
   }
-  
   .register-button-home {
     color: rgb(0, 0, 0);
     position: relative;
@@ -43,15 +49,15 @@
     /* bottom: 5%; */
   }
   #dept-intro {
-    color: aliceblue;
-  
-    font-size: 4.2vw;
+    color: #19e5f8;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 3.5vw;
   
     position: relative;
     /* bottom: 2%; */
   }
   #presents {
-    color: aliceblue;
+    color: #19e5f8;
     justify-content: center;
     align-items: center;
     font-size: 40px;
@@ -59,13 +65,17 @@
     bottom: 3%;
   }
   #home-intro {
-    color: aliceblue;
+    color: #19e5f8;
   
-    font-size: 2vw;
+    font-size: 1.8vw;
   
     position: relative;
     bottom: 2%;
     left: 1%;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  .tags_intro{
+    font-size: 2vw;
   }
   .scroll {
     position: relative;
@@ -104,6 +114,9 @@
       width: 100%;
       height: 100vh;
     }
+    .home_tags{
+      font-size: 7vw;
+    }
     .register-button-home {
       color: rgb(0, 0, 0);
       background-color: #1ce1ff;
@@ -132,17 +145,19 @@
       top: 5%;
     }
     #dept-intro {
-      color: aliceblue;
-      font-size: 6.2vw;
+      font-size: 5.8vw;
       position: relative;
+      color: #19e5f8;
       bottom: 0%;
     }
-  
+    .tags_intro{
+      font-size: 4vw;
+    }
     .heroPTag {
-      font-size:8vw;
+      font-size:7vw;
     }
     #presents {
-      color: aliceblue;
+      color: #19e5f8;
       justify-content: center;
       align-items: center;
       font-size: 5vw;
@@ -150,7 +165,7 @@
       top: 2%;
     }
     #home-intro {
-      color: aliceblue;
+      color: #19e5f8;
   
       font-size: 4vw;
   

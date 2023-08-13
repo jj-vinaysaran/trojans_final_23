@@ -41,13 +41,18 @@ export default function Contactus(){
         <>
         <div className = "main">
             <div className="left-div_contact">
-                <div className="heading">
-                    <h1 className = "h1_head">Contact Us</h1>
+                    <h1 id="h1_head">Contact Us</h1>
+                <p className="touch"> Get Contact with us to get the unreal form of enjoyment and entertainment</p>
+                <div className="numbers">
+                    <span className="name">President (president name): <a href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name">Vice-President (Vice-president name): <a href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name">Secretary (Secretary name): <a href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name">Staff co-ordinator (staff co-ordinator name): <a href="tel:+9944012249">+91 9944012249</a></span>
                 </div>
-                <p> Get Contact with us to get the unreal form of enjoyment and entertainment</p>
                 
             </div>
             <div className="register">
+                        <h1 id="feedback">Your Opinion</h1>
                         <form  className="form_contactus" onSubmit={submit_handler}>
                             <input type="text" onChange={changehandler} value= {formstate.name || ""} placeholder="Your Name"/>
                             <input type="text" onChange={changehandler} value= {formstate.email || ""} placeholder="Email ID"/>

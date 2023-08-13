@@ -1,20 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 .main{
   /* padding-bottom: 10vh; */
   /* background-color:green; */
   display: flex;
   height: 100vh;
   flex-direction:row;
-  background-color:#101115;
+  /* background-color:#101115; */
   justify-content: space-around;
   /* justify-content: center; */
 }
 
-.h1_head{
+#h1_head{
   text-align: center;
-  color : white;
+  /* color : white; */
   background: transparent;
   padding:  20px;
-  font-size: 6vw;
+  font-size: 4.5vw;
+  font-family: 'Cinzel', serif;
+  color: #56f2e6; 
   margin-bottom: 20px;
 }
 
@@ -38,20 +42,49 @@ p{
   /* border: 1px solid #e9ecef; */
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
   /* background-color: rgb(255, 255, 255); */
+  /* backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(43, 43, 43, 0.75); */
+  border-radius: 12px;
+  /* border: 1px solid rgba(255, 255, 255, 0.125); */
+  height: 100%;
+  width: 45%;
+}
+.numbers{
+  display: flex;
+  /*background-color:aqua;
+  */border-radius: 10x;
+  width: 90%;
+  height: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: start;
+  gap: 10px;
+  padding: 10px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(43, 43, 43, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
-  height: 100%;
-  width: 45%;
 }
+.name{
+  font-size: 30px;
+}
+.touch{
+  font-size: 1.5vw;
+}
+#feedback{
+  font-size: 4vw;
+  color: #56f2e6;
+  font-family: 'Cinzel', serif;
 
-
-
+  
+}
 
 .btn{
   background-color: rgb(179, 73, 200);
@@ -73,11 +106,15 @@ p{
 .form_contactus{
 display: flex;
 /* background-color:rgb(58, 221, 40); */
-height:100%;
-width: 100%;
+height:fit-content;
+width: 80%;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(43, 43, 43, 0.75);
+padding: 20px;
 }
 
 input{
@@ -100,6 +137,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+
 /* height: 200%; */
 
 }
@@ -113,11 +151,13 @@ flex-direction: column;
   flex-direction:column;
   align-items: center;
   justify-content: center;
-  background-color:#101115;
+  height: max-content;
+  /* background-color:#101115; */
   /* justify-content: center; */
 }
 .left-div_contact{
-width: 90%;
+width: 98%;
+padding:30px 0px;
 /* background-color: red; */
 display: flex;
 justify-content: center;
@@ -125,9 +165,36 @@ align-items: center;
 flex-direction: column;
 /* height: 200%; */
 
+
 }
-.h1_head{
-  font-size: 9vw;
+.numbers{
+  display: flex;
+  background-color:aqua;
+  padding: 10px;
+  border-radius: 10px;
+  width: 98%;
+  height: 80%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: start;
+  gap: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(43, 43, 43, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.name{
+  font-size: 4vw;
+}
+
+#h1_head{
+  font-size: 8vw;
 }
 .register{
 /* max-width: 968px; */
@@ -138,14 +205,32 @@ display: flex;
 justify-content: center;
 align-items: center;
 /* background-color: rgb(255, 255, 255); */
-backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(43, 43, 43, 0.75);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-height: 100%;
+
+height: fit-content;
 width: 90%;
 }
+.touch{
+  font-size: 4vw;
+}
+#feedback{
+  font-size: 8vw;
+  margin: 20px;
+  color: #56f2e6;
+}
+.form_contactus{
+  width: 95%;
+}
+input{
+padding: 15px;
+width: 80%;
+}
+.btn{
+  background-color: rgb(179, 73, 200);
 
-
+  color: #e9ecef;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;  
+  cursor: pointer;
+}
 }

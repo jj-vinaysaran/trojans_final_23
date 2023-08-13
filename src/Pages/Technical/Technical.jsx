@@ -73,7 +73,8 @@ function Technical() {
       duration:event.duration,
     description:event.description,
   coordinators:event.coordinators,
-timing:event.timing } });
+timing:event.timing,
+eventtype:"/tech"} });
     }
     return (
       <div>

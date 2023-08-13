@@ -25,7 +25,7 @@ function EventHome() {
             <div className='whatsapp_navbar'>
               <div className='logo_name'>
                 <img src={trojanslogo} className='logo_trojans'/>
-                <h2>Trojans</h2>
+                <h2 className='trojans'>Trojans</h2>
               </div>
               <div className='search_dots'>
                 <img src={searchicon} className='_icons'/>
@@ -80,7 +80,7 @@ function EventHome() {
             <div className='whatsapp_navbar'>
               <div className='logo_name'>
                 <img src={trojanslogo} className='logo_trojans'/>
-                <h2>Trojans</h2>
+                <h2 className='trojans'>Trojans</h2>
               </div>
               <div className='search_dots'>
                 <img src={searchicon} className='_icons'/>

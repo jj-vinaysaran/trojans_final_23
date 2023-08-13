@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 .event_home_cont{
     height: 100vh;
     display: flex;
@@ -80,7 +81,8 @@ align-items: center;
 	justify-self: center;
 	align-self: center;
 	font-size: 3rem;
-
+	font-family: 'Cinzel', serif;
+	color: #56f2e6;
 	border-bottom: 2px solid green;
 }
 .inside_msg{
@@ -99,16 +101,10 @@ align-items: center;
 	-ms-border-radius:10px ;
 	-o-border-radius:10px ;
 }
-.butns{
-font-size: 3rem;
-background-color: #037560;
-/* background-color: yellow; */
-margin: 10px 0px;
-width: 90%;
-padding: 10px;
-color: white;
-text-align: center;
-text-decoration: none;
+.trojans{
+	font-family: 'Cinzel', serif;
+}
+.butns{ font-size: 3rem; background-color: #037560; /*background-color: yellow; */margin: 10px 0px; width: 90%; font-weight: bold; color: black; padding: 10px; box-shadow: 0 0 5px #56f2e6, 0 0 15px #56f2e6, 0 0 15px #56f2e6, 0 0 6px #56f2e6; border-radius:10px ; text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; text-align: center; text-decoration: none; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
 }
 .butns:hover{
 opacity: 0.7;
@@ -407,9 +403,9 @@ opacity: 0.7;
 	.title_pages{
 		justify-self: center;
 		align-self: center;
-		font-size: 8vw;
+		font-size: 6vw;
 		padding: 15px;
-	
+		font-family: 'Cinzel', serif;
 		border-bottom: 2px solid green;
 	}
 	.butns{
@@ -419,7 +415,7 @@ opacity: 0.7;
 		margin: 14px 10px;
 		width: 90%;
 		padding: 10px;
-		color: white;
+		color: rgb(0, 0, 0);
 		/* font-size: 40px;	 */
 		text-align: center;
 		text-decoration: none;

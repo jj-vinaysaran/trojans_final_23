@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
 .main_detail{
     background-color:black;
     display: flex;
@@ -41,6 +43,8 @@ align-self: center;
 border-bottom: 2px solid rgb(10, 255, 251);
 width: 100%;
 font-size: 50px;
+font-family: 'Cinzel', serif;
+
 text-transform: uppercase;
 text-align: center;
     text-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px;
@@ -58,6 +62,8 @@ color: #fff6a9;
     color: white;
     color: black;
     font-size: 30px;
+    font-family: 'Cinzel', serif;
+
     text-shadow:
       0 0 7px #fff,
       0 0 10px #fff,
@@ -93,6 +99,19 @@ color: #fff6a9;
     /* text-align:justify; */
     font-size: 30px;
 }
+.back{
+    font-size: 60px;
+    align-self: flex-start;
+    z-index: 200;
+    cursor: pointer;
+}
+.enter{
+    width: 100%;
+    display: flex;
+}
+.heading-detail{
+    align-items: center;
+}
  @media screen  and (max-width:1024px) {
     .detail_inside{
         display: flex;
@@ -100,11 +119,18 @@ color: #fff6a9;
         align-items: flex-start;
         flex-direction: column;
         background-color: black;
-        width: 70%;
-        height:max-content;
+        width: 92%;
+        height:fit-content;
         padding: 30px;
+
         
 } 
+.back{
+    z-index: 200;
+    font-size: 35px;
+    align-self: flex-start;
+    cursor: pointer;
+}
 .tags_event{
     font-size: 2rem;
     text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
@@ -123,8 +149,10 @@ color: #fff6a9;
       0 0 92px #0fa,
       0 0 102px #0fa,
       0 0 151px #0fa;
-      font-size: 40px;
+      font-size: 8vw;
     z-index: 2;
+    align-self: center;
+    justify-self: center;
 }
 .detail_head{
     align-self: center;
@@ -151,7 +179,7 @@ color: #fff6a9;
         color: #fff6a9;
     }
     .detail_descp_point{
-        line-height: 25px;
+        line-height: 5vw;
     }
     .detail_descp{
         text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
