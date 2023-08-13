@@ -11,6 +11,7 @@ import Workshop from "./Pages/Workshop/Workshop.jsx";
 import Navbar from "./Pages/Navbar/Navbar.jsx";
 import DetailEvent from "./Pages/DetailEvent/DetailEvent.jsx";
 import Hero from "./Pages/HomePage/Hero/Hero.jsx";
+import WorkDetail from "./Pages/WorkDetail/WorkDetail.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/nontech" element={<Nontech />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/workshop" element={<Workshop />} />
+          <Route path= "/workdetail" element={<WorkDetail/>} />
           <Route path="/eventdetail" element={<DetailEvent />} />
           <Route path="/hero" element={<Hero />} />
           <Route path="/nav" element={<Navbar />} />
