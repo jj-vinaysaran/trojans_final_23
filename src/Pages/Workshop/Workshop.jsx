@@ -1,14 +1,16 @@
 import React from "react";
 import "./workshop.css";
-import p5 from "../../Images/Tech/p5.jpg";
 import { useNavigate } from "react-router-dom";
-// import { BiGlobe } from "react-icons/si";
+import {FaConnectdevelop,FaDatabase, FaWifi} from 'react-icons/fa';
+import { GiRobotAntennas } from 'react-icons/gi';
+
 function Workshop() {
   const navigate = useNavigate();
 
   let workshopdata = [
     {
-      eventname: "event1",
+      eventname: "Advanced Web Development",
+      iconsrc:<FaDatabase className="work_card__icon"/>,
       // imageSrc: p5,
       duration: "10",
 
@@ -26,8 +28,9 @@ function Workshop() {
       buttonText: "Continue Learning",
     },
     {
-      eventname: "event2",
+      eventname: "Basic Networking",
       // imageSrc: p5,
+      iconsrc:<FaWifi className="work_card__icon"/>,
       duration: "10",
       description: `A single team must consist of 2 members
       •	The overall competition consists of three rounds. 
@@ -42,8 +45,8 @@ function Workshop() {
       buttonText: "Continue Learning",
     },
     {
-      eventname: "event3",
-      // imageSrc: p5,
+      eventname: "Machine Learning and Deep Learning",
+      iconsrc:<FaConnectdevelop className="work_card__icon"/>,
       duration: "10",
       description: `A single team must consist of 2 members
       •	The overall competition consists of three rounds. 
@@ -58,8 +61,8 @@ function Workshop() {
       buttonText: "Continue Learning",
     },
     {
-      eventname: "event4",
-      // imageSrc: p5,
+      eventname: "AI Integration with ChatGPT",
+      iconsrc: <GiRobotAntennas className="work_card__icon"/>,
       duration: "10",
       description: `A single team must consist of 2 members
       •	The overall competition consists of three rounds. 
@@ -84,6 +87,7 @@ function Workshop() {
         description: event.description || "",
         coordinators: event.coordinators || "",
         timing: event.timing || "",
+        eventtype:"/workshop"
       },
     });
   };
@@ -93,9 +97,9 @@ function Workshop() {
       <div class="work_back">
         <div class="work_cont">
           <div className="Workshop_title">
-            <h1 className="mobile-view">{"< Workshop />"}</h1>
+            <h1 className="mobile-view">{"< Workshops />"}</h1>
           </div>
-
+              
           <div class="work_card__container">
             {workshopdata.map((event, index) => (
               <article class="work_card__article work_card__orange" key={index}>
@@ -104,11 +108,13 @@ function Workshop() {
 
                 <div class="work_card__shape-1">
                   <div class="work_card__shape-2"></div>
-                  <div class="work_card__shape-3"></div>
+                  <div class="work_card__shape-3">
+                    {event.iconsrc}
+                  </div>
                 </div>
-
                 <div class="work_card__data">
-                  <h2 className="work_card__title">{event.eventname}</h2>
+                  
+                  <h2 className="work_card__title"><span className="work_tags">{"<"}</span>{event.eventname}<span className="work_tags">{"/>"}</span></h2>
                   <p className="work_card_description">{event.eventdescription}</p>
                   <a
                     // href="#"

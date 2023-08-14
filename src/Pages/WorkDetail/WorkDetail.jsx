@@ -1,18 +1,26 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import "./workdetail.css";
 
 function WorkDetail() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { state } = location;
   console.log(state)
   // Split the description into an array of points
   const descriptionPoints = state.description.split('\n').filter(point => point.trim() !== '');
   console.log("points: ",descriptionPoints);
+  const gotoevent=()=>{
+    console.log("navigate")
+    navigate(`${state.eventtype}`)
+  }
 
   return (
     <div className='main_detail'>
+      <div className='enter'>
+      <span className='back' onClick={()=>gotoevent()}>⬅️</span> 
       <h1 className='heading-detail'>{"< Detail Event />"}</h1>
+      </div>
       <h1 style={{margin:"10px"}} className='tags_detail'><span className='tags'>{"<"}</span><span className='tagname'>{" main "}</span><span className='tags'>{">"}</span></h1>
       <div className='detail_cont'>
         <div className='detail_inside'>
