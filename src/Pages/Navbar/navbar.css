@@ -56,7 +56,7 @@
   z-index: 20;
   top: 10px;
   right: 4px;
-  background-color: #ececee;
+  background-color: #eceeee;
   margin-top: -1px;
   /* transition: width 100ms 1750ms ease, right 100ms 1750ms ease,
     margin-top 100ms ease, transform 200ms cubic-bezier(0.23, 1, 0.32, 1); */
@@ -193,7 +193,7 @@
   font-size: 15px;
 }
 .pt-5 .nav-lst .nvg-opt {
-  color: rgb(255, 255, 255);
+  color: rgb(22, 199, 231);
   text-decoration: none;
   font-size: 3em;
   padding: 5px 20px;
@@ -233,7 +233,7 @@
 .nvg-opt:hover:before {
   content: attr(data-text);
   opacity: 0.3;
-  color: rgb(171, 177, 177);
+  color: rgb(22, 203, 203);
   left: 50%;
   z-index: -1;
   letter-spacing: 10px;

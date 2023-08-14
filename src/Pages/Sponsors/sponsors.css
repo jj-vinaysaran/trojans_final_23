@@ -127,127 +127,58 @@ html{
 
 
 /* ============================= Developers ==================================*/
+.developers{
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: max-content;
+  /* margin: 20px 0px; */
+} 
+.dev_card_parent{
+  /* background-color:green; */
+  width: 100%;
 
-.Dev_bg{
-	/* background-color: rgb(238, 238, 238); */
-    height: 100vh;
+  padding: 40px;
+  display: flex;
+  gap: 30px;
 }
-.Dev_main{
-	width: 100%;
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-family: pop;
-	padding: 50px;
+.dev_card{
+  width: 25%;
+  height: max-content;
+  color: white;
+  /* background-color: red; */
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.Dev_main .heading{
-	font-size: 25px;
-	margin-bottom: 80px;
-	position: relative;
+/* a{
+  text-decoration: none;
+} */
+.dev_title{
+  font-size: 5vw;
+  /* color: white; */
+  color: #31afaf;
+  border-bottom: 2px solid red;
 }
-.Dev_heading span{
-	color: rgb(0, 81, 255);
+.dev_name{
+  font-size: 2.5vw;
+  padding: 10px;
+  color: red;
 }
-.Dev_heading::after{
-	content: " ";
-	position: absolute;
-	width: 60%;
-	height: 3px;
-	left: 50%;
-	transform: translateX(-50%);
-	bottom: -5px;
-	background-color: rgb(0, 81, 255);
+.dev_role{
+  font-size: 1.6vw;
+  padding: 10px;
 }
-.Dev_container{
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+.dev_icons{
+  font-size:30px;
+  text-decoration: none;
 }
-.Dev_container .Dev_card{
-	width: 230px;
-	height: 350px;
-	position: relative;
-	border-radius: 10px;
-	background-color: #fff;
-	overflow: hidden;
-	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
-	margin:15px;
-}
-.Dev_card::after{
-	content: " ";
-	width: 100%;
-	height: 40%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(0, 81, 255, 0.864);
-}
-.Dev_card img{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	object-fit: fit;
-	transition: .6s;
-	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
-	z-index: 99;
-}
-.Dev_card:hover img{
-	transform: scale(.50) translateY(-120px);
-	border-radius: 10px;
-}
-.Dev_card .Dev_details{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-	padding-bottom: 40px;
-	transform: translateY(100%);
-	transition: .6s;
-}
-.Dev_card:hover .Dev_details{
-	transform: translateY(0);
-}
-.Dev_details h3{
-	font-size: 22px;
-	color: rgb(0, 81, 255);
-}
-.Dev_details p{
-	font-size: 15px;
-	color: #333;
-	margin-bottom: 7px;
-}
-.Dev_details .Dev_social-links{
-	display: flex;
-}
-.Dev_details .Dev_social-links a{
-	width: 30px;
-	height: 30px;
-	margin: 0 5px;
-	border-radius: 50%;
-	color: #333;
-	background-color: rgb(182, 182, 182);
-	text-decoration: none;
-	transition: .6s;
-	display: grid;
-	place-items: center;
-	font-size: 17px;
-}
-.Dev_details .Dev_social-links a:hover{
-	transform: rotate(360deg);
-	background-color: rgb(0, 81, 255);
-	color: #fff;
-}
-  
   @media screen and (max-width : 1024px){
   
   
@@ -257,6 +188,46 @@ html{
   
   }
   
+  @media screen and (max-width:1024px) {
+    .dev_card{
+      display: flex;
+      flex-direction: column;
+    }
+    .dev_card_parent{
+      /* background-color:green; */
+      width: 100%;
+    
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .dev_card{
+      width: 90%;
+      height: max-content;
+    }
+    .dev_title{
+      font-size: 8vw;
+      color:#31afaf;
+      font-weight: bold;
+      border-bottom: 2px solid red;
+    }
+    .dev_name{
+      font-size: 6.6vw;
+      padding: 10px;
+      color: red;
+    }
+    .dev_role{
+      font-size: 5.6vw;
+      padding: 10px;
+    }
+    .dev_icons{
+      font-size:30px;
+      text-decoration: none;
+    }
+  }
   /* @media (max-width: 991px) {
     .card .oursp{
         margin-top: 10rem;

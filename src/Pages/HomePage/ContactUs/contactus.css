@@ -9,6 +9,7 @@
   /* background-color:#101115; */
   justify-content: space-around;
   /* justify-content: center; */
+  
 }
 
 #h1_head{
@@ -105,7 +106,7 @@ font-family: 'Noto Serif', serif;
 }
 
 .btn{
-  background-color: rgb(179, 73, 200);
+  background-color: rgb(251, 0, 0);
 
   color: #e9ecef;
   border-radius: 10px;
@@ -230,12 +231,14 @@ padding: 15px;
 width: 80%;
 }
 .btn{
-  background-color: rgb(179, 73, 200);
+  background-color: rgb(255, 14, 14);
 
-  color: #e9ecef;
+  color: #31afaf;
   border-radius: 10px;
   padding: 10px 30px;
   border: none;  
+  font-size:20px;
+  font-weight: bold;
   cursor: pointer;
 }
 }

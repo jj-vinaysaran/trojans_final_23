@@ -102,7 +102,7 @@ color: #fff6a9;
 .back{
     font-size: 60px;
     align-self: flex-start;
-    z-index: 200;
+    z-index: 9999999;
     cursor: pointer;
 }
 .enter{
@@ -126,7 +126,7 @@ color: #fff6a9;
         
 } 
 .back{
-    z-index: 200;
+    z-index: 9999999;
     font-size: 35px;
     align-self: flex-start;
     cursor: pointer;

@@ -1,5 +1,5 @@
 
-canvas {height: max-content; }
+canvas {height:max-content }
 .containerbg{
     position: relative;
     z-index: 0;

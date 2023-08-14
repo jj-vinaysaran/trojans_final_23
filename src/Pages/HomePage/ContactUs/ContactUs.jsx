@@ -44,19 +44,19 @@ export default function Contactus(){
                     <h1 id="h1_head">Contact Us</h1>
                 <p className="touch"> Get Contact with us to get the unreal form of enjoyment and entertainment</p>
                 <div className="numbers">
-                    <span className="name"><span className="title_name">President <span className="namesof">(Mohammed Mujammil)</span>:</span> <a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
-                    <span className="name"><span className="title_name">Vice-President <span className="namesof">(Asmitha)</span> :</span> <a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
-                    <span className="name"><span className="title_name">Secretary<span className="namesof"> (Dhoni)</span>: </span> <a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
-                    <span className="name"><span className="title_name">Staff coordinator<span className="namesof"> (Mr.Ramachandran)</span>:</span><a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name"><span className="title_name">President <span className="namesof">(Mohammed Mujammil)</span>:</span> <a className="a_tag" href="tel:+918681039888">+91 8681039888</a></span>
+                    <span className="name"><span className="title_name">Vice-President <span className="namesof">(Asmitha)</span> :</span> <a className="a_tag" href="tel:+917695887130">+91 7695887130</a></span>
+                    <span className="name"><span className="title_name">Secretary<span className="namesof"> (Dhoni)</span>: </span> <a className="a_tag" href="tel:+918148542866">+91 8148542866</a></span>
+                    <span className="name"><span className="title_name">Staff coordinator<span className="namesof"> (Mr.Ramachandran)</span>:</span><a className="a_tag" href="tel:+917871855064">+91 7871855064</a></span>
                 </div>
                 
             </div>
             <div className="register">
                         <h1 id="feedback">Your Opinion</h1>
-                        <form  className="form_contactus">
-                            <input type="text"  placeholder="Your Name"/>
-                            <input type="text"  placeholder="Email ID"/>
-                            <input type="text"  placeholder="Phone No"/>
+                        <form action="https://formspree.io/f/mnqkpogd"  method="POST" className="form_contactus">
+                            <input type="text" name="name" required placeholder="Your Name"/>
+                            <input type="text" name="email" required placeholder="Email ID"/>
+                            <input type="text" name="message" required placeholder="Message"/>
                             <button className="btn"  >Submit</button>
                         </form>
             </div>
