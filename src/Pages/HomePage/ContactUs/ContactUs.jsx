@@ -53,11 +53,11 @@ export default function Contactus(){
             </div>
             <div className="register">
                         <h1 id="feedback">Your Opinion</h1>
-                        <form  className="form_contactus" onSubmit={submit_handler}>
-                            <input type="text" onChange={changehandler} value= {formstate.name || ""} placeholder="Your Name"/>
-                            <input type="text" onChange={changehandler} value= {formstate.email || ""} placeholder="Email ID"/>
-                            <input type="text" onChange={changehandler} value= {formstate.phone || ""} placeholder="Phone No"/>
-                            <button className="btn"  onChange={changehandler}>Submit</button>
+                        <form  className="form_contactus">
+                            <input type="text"  placeholder="Your Name"/>
+                            <input type="text"  placeholder="Email ID"/>
+                            <input type="text"  placeholder="Phone No"/>
+                            <button className="btn"  >Submit</button>
                         </form>
             </div>
 
