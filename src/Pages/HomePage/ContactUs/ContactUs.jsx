@@ -44,10 +44,10 @@ export default function Contactus(){
                     <h1 id="h1_head">Contact Us</h1>
                 <p className="touch"> Get Contact with us to get the unreal form of enjoyment and entertainment</p>
                 <div className="numbers">
-                    <span className="name">President (president name): <a href="tel:+9944012249">+91 9944012249</a></span>
-                    <span className="name">Vice-President (Vice-president name): <a href="tel:+9944012249">+91 9944012249</a></span>
-                    <span className="name">Secretary (Secretary name): <a href="tel:+9944012249">+91 9944012249</a></span>
-                    <span className="name">Staff co-ordinator (staff co-ordinator name): <a href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name"><span className="title_name">President <span className="namesof">(Mohammed Mujammil)</span>:</span> <a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name"><span className="title_name">Vice-President <span className="namesof">(Asmitha)</span> :</span> <a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name"><span className="title_name">Secretary<span className="namesof"> (Dhoni)</span>: </span> <a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
+                    <span className="name"><span className="title_name">Staff coordinator<span className="namesof"> (Mr.Ramachandran)</span>:</span><a className="a_tag" href="tel:+9944012249">+91 9944012249</a></span>
                 </div>
                 
             </div>

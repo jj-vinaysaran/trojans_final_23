@@ -74,7 +74,8 @@ color: white;
     /* background-color: white; */
     /* border: 2px solid red; */
     border-radius:10px ;
-    box-shadow: 0 0 5px #f419b2, 0 0 15px #f419b2, 0 0 15px #f419b2, 0 0 6px #f419b2;
+    box-shadow: 0 0 2px #1ce1ff, 0 0 5px #1ce1ff, 0 0 15px #1ce1ff,
+    0 0 30px #1ce1ff;
     /* box-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px; */
     /* text-shadow: 0 0 5px #fff, 0 0 3px #fff, 0 0 5px rgb(238, 250, 58), 0 0 10px rgb(238, 250, 58), 0 0 3px rgb(238, 250, 58), 0 0 5px rgb(238, 250, 58), 0 0 5px rgb(238, 250, 58); */
     /* box-shadow: 0 0 5px #fff, 0 0 1px #fff, 0 0 2px rgb(238, 250, 58), 0 0 2px rgb(238, 250, 58), 0 0 2px rgb(238, 250, 58), 0 0 3px rgb(238, 250, 58), 0 0 2px rgb(238, 250, 58); */
