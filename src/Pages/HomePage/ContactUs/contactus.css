@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Noto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 .main{
   /* padding-bottom: 10vh; */
@@ -15,10 +15,11 @@
   text-align: center;
   /* color : white; */
   background: transparent;
-  padding:  20px;
+  padding:  5px;
   font-size: 4.5vw;
   font-family: 'Cinzel', serif;
   color: #56f2e6; 
+  border-bottom: 5px solid red;
   margin-bottom: 20px;
 }
 
@@ -66,14 +67,29 @@ p{
   text-align: start;
   gap: 10px;
   padding: 10px;
+  font-family: 'Cinzel', serif;
+font-family: 'Noto Serif', serif;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(43, 43, 43, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
+
+}
+.namesof{
+  text-shadow: none;
+  color: #f31414;
+  font-weight: bold;
 }
 .name{
   font-size: 30px;
+  text-decoration: none;
+}
+.a_tag{
+  text-decoration: none;
+  color: #56f2e6;
+  font-size: 80%;
 }
 .touch{
   font-size: 1.5vw;
@@ -82,6 +98,8 @@ p{
   font-size: 4vw;
   color: #56f2e6;
   font-family: 'Cinzel', serif;
+  border-bottom: 5px solid red;
+
 
   
 }
@@ -103,31 +121,13 @@ p{
   transition: 0.2s ease;
  }
 
-.form_contactus{
-display: flex;
-/* background-color:rgb(58, 221, 40); */
-height:fit-content;
-width: 80%;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-backdrop-filter: blur(16px) saturate(180%);
--webkit-backdrop-filter: blur(16px) saturate(180%);
-background-color: rgba(43, 43, 43, 0.75);
-padding: 20px;
+.form_contactus{ display: flex; /*background-color:rgb(58, 221, 40); */height:fit-content; width: 80%; justify-content: center; align-items: center; flex-direction: column; backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px) saturate(180%); background-color: rgba(43, 43, 43, 0.75); box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf; border-radius:10px ; padding: 20px; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
 }
 
-input{
-width: 60%;
-border-radius: 5px;
-background-color:black;
-color: white;
-margin: 30px;
-padding: 30px;
-border: none;
+input{ width: 60%; border-radius: 10px; background-color:black; color: white; margin: 30px; padding: 30px; border: none; box-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
 }
 input::placeholder{
-color: white;
+color: #56f2e6;
 }
 
 .left-div_contact{
@@ -141,7 +141,12 @@ flex-direction: column;
 /* height: 200%; */
 
 }
-
+.title_name{
+  font-weight: bold;
+  text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
+  color: white;
+  
+}
 @media screen and (max-width : 1024px){
 .main{
   /* padding-bottom: 10vh; */

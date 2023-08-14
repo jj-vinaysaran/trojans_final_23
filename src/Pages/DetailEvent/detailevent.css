@@ -57,7 +57,7 @@ color: #fff6a9;
     
     color: rgb(0, 0, 0);
 }
-.heading-detail{
+#heading-detail{
     margin-inline: auto;
     color: white;
     color: black;
@@ -109,7 +109,7 @@ color: #fff6a9;
     width: 100%;
     display: flex;
 }
-.heading-detail{
+#heading-detail{
     align-items: center;
 }
  @media screen  and (max-width:1024px) {
@@ -137,7 +137,7 @@ color: #fff6a9;
     
     color: rgb(0, 0, 0);
 }
-.heading-detail{
+#heading-detail{
     margin-inline: auto;
     color: black;
     text-shadow:

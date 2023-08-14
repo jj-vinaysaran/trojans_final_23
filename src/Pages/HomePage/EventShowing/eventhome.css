@@ -100,16 +100,18 @@ align-items: center;
 	-moz-border-radius:10px ;
 	-ms-border-radius:10px ;
 	-o-border-radius:10px ;
+
 }
 .trojans{
 	font-family: 'Cinzel', serif;
 }
-.butns{ font-size: 3rem; background-color: #037560; /*background-color: yellow; */margin: 10px 0px; width: 90%; font-weight: bold; color: black; padding: 10px;border: 2px solid black; border-radius:10px ; text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; text-align: center; text-decoration: none; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
+.butns{ font-size: 3rem; background-color: #037560; /*background-color: yellow; */margin: 10px 0px; width: 90%; font-weight: bold; color: rgb(45, 248, 255); padding: 10px; border-radius:10px ; text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; text-align: center; text-decoration: none; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;		box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
+
 }
 .butns:hover{
 opacity: 0.7;
 }
-.message_whatsapp{
+.message_whatsapp{	
 	height:85%;
 	width: 42%;
 	/*justify-self:flex-end;
@@ -126,6 +128,8 @@ opacity: 0.7;
 	-moz-border-radius:10px ;
 	-ms-border-radius:10px ;
 	-o-border-radius:10px ;
+	box-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
+
 }
 .time_wa{
 	align-self: end;
@@ -415,10 +419,12 @@ opacity: 0.7;
 		margin: 14px 10px;
 		width: 90%;
 		padding: 10px;
-		color: rgb(0, 0, 0);
+		color: rgb(48, 238, 241);
 		/* font-size: 40px;	 */
 		text-align: center;
 		text-decoration: none;
+		box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
+
 		}
 		.type{
 			width: 80%;
@@ -444,7 +450,8 @@ opacity: 0.7;
 			align-items: center;
 			flex-direction: column;
 			z-index: 10;
-			border: 2px solid black;
+			/* border: 2px solid black; */
+			box-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
 		}
 		.logo_name{
 			display: flex;
