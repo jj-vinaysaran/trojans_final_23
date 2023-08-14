@@ -71,7 +71,7 @@ p{
 font-family: 'Noto Serif', serif;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(43, 43, 43, 0.75);
+  /* background-color: rgba(43, 43, 43, 0.75); */
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
