@@ -2,10 +2,12 @@
 .event_home_cont{
     height: 100vh;
     display: flex;
+	z-index: 999;
     justify-content: center;
     align-items: center;
 }
 .mbp-mockup-wrapper {
+	z-index: 999;
 	width: 75%;
     max-width: 1280px;
 	min-width: 320px;
@@ -395,6 +397,7 @@ opacity: 0.7;
 	}
 	.mobile_view_evetn{
 		display: block;
+		z-index: 9999;
 		width: 90%;
 		/*background-color: #fff;
 		*/height: 90%;
