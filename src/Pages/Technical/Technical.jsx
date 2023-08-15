@@ -5,63 +5,116 @@ import { useNavigate } from 'react-router-dom';
 function Technical() {
   const navigate=useNavigate();
     const Nontechdatas = [
-      {eventname:"event1",
+      {eventname:"Coders Chemistry",
         imageSrc: p5,
         duration:"10",
-        description:`A single team must consist of 2 members
-        •	The overall competition consists of three rounds. 
-        •	Each round is fifteen minutes long.
-        •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-        •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-        •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-        •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-        •	Between each round, a team will be eliminated.`,
-        coordinators:"me and u",
+        description:`GENERAL RULES:
+        ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
+        ●	THERE WILL BE 3 ROUNDS.
+        ●	TEAM MEMBERS ARE NOT ALLOWED TO COMMUNICATE WITH EACH OTHER IN THE 1ST AND 2ND ROUNDS.
+        ●	THE PROGRAMMING LANGUAGES: JAVA, C, C++, PYTHON
+        ROUND 1:
+        ●	ONE MEMBER SHOULD CODE THE ANSWERS FOR THE QUESTIONS, WHILE THE OTHER SHOULD IMPLEMENT THE LOGIC USING THE PAPER-AND-PEN METHOD.
+        ●	THE MEMBERS WILL SWAP ROLES EVERY 3 MINUTES AND PROCEED WITH THE REMAINING PART OF THE CODE.
+        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 2:
+        ●	BOTH TEAM MEMBERS HAVE TO CODE SIMULTANEOUSLY ON DIFFERENT PROBLEMS.
+        ●	THE POSITIONS OF THE TEAMMATES ARE SWAPPED EVERY 4 MINUTES.
+        ●	THE AVERAGE SCORE OF THE TEAM IS CONSIDERED FOR ELIMINATION.
+        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 3:
+        ●	THE TEAM WILL BE GIVEN A SET OF PROBLEMS TO SOLVE.
+        ●	BOTH TEAM MEMBERS CAN DISCUSS AND SOLVE THE PROBLEMS.
+        ●	PROBLEMS WILL BE BASED ON DATA STRUCTURES & ALGORITHMS.
+        ●	THE TIME DURATION FOR THIS ROUND IS 20 MINUTES.
+        `,
+        coordinators:`HARI PRASAD R ,SARUMATHI ,SHANMUGA PRIYA ,SOWMIYA `,
         timing:"1hrs",
         buttonText: "View More",
       },
-      {eventname:"event1",
+      {eventname:"Quiztopher",
         imageSrc: p5,
         duration:"10",
-        description:`A single team must consist of 2 members
-        •	The overall competition consists of three rounds. 
-        •	Each round is fifteen minutes long.
-        •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-        •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-        •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-        •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-        •	Between each round, a team will be eliminated.`,
-        coordinators:"me and u",
+        description:`GENERAL RULES:
+        •	EACH TEAM SHOULD CONSISTS A MAXIMUM OF 3 MEMBERS.
+        •	THERE WILL BE 3 ROUNDS.
+        •	ALL THE 3 ROUNDS WILL BE TIMER BASED.
+        ROUND 1:
+        •	IT WILL BE A MCQ ROUND.
+        •	QUESTIONS WILL BE BASED ON PYTHON, C, C++, JAVA.
+        •	THE TIME DURATION FOR EACH QUESTION WILL BE 20 SECONDS.
+        ROUND 2:
+        •	IT WILL BE A MEME BASED MCQ ROUND.
+        •	QUESTIONS WILL BE BASED ON ALGORITHMS AND TECHNICAL TERMS.
+        •	THE TIME DURATION FOR ANSWERING THE QUIZ AFTER THE MEME IS DISPLAYED WILL BE 10 SECONDS.
+        ROUND 3:
+        •	IT WILL BE SPOT THE ERROR ROUND.
+        •	PARTICIPANTS NEED TO SPOT THE ERRORS IN THE GIVEN CODE AND NEED TO SAY THE NUMBER OF ERRORS.
+        •	PAPER AND PEN WILL BE PROVIDED FOR DEBUGGING.
+        •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
+        `,
+        coordinators:"VISHAL RK ,	ABHISHEK DAS ,	SUBITHA S ,	PRANAVI RETHIKA VS ,	SYED NADEEM G ",
         timing:"1hrs",
         buttonText: "View More",
       },
-      {eventname:"event1",
+      {eventname:"Code Beats",
         imageSrc: p5,
         duration:"10",
-        description:`A single team must consist of 2 members
-        •	The overall competition consists of three rounds. 
-        •	Each round is fifteen minutes long.
-        •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-        •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-        •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-        •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-        •	Between each round, a team will be eliminated.`,
-        coordinators:"me and u",
+        description:`GENERAL RULES:
+        •	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
+        •	THERE WILL BE 3 ROUNDS.
+        •	TEAM MEMBERS ARE NOT ALLOWED TO COMMUNICATE WITH EACH OTHER IN THE 1ST ROUND.
+        •	THE PROGRAMMING LANGUAGES: JAVA, C, C++, PYTHON
+        •	NO MALPRACTICE
+        •	ROUGH PAPER WILL BE PROVIDED FOR ATTENDIES TO USE
+        ROUND 1:
+        •	ONE MEMBER SHOULD CODE THE ANSWERS FOR THE QUESTIONS, WHILE THE OTHER CAN PARTICIPATE IN THE GUESSING GAME
+        •	ONE MEMBER LISTENS TO MUSIC AND HAVE TO FIND THE CORRESPONDING MOVIE(HEADPHONES WOULD BE PROVIDED)
+        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 2:
+        •	ROUND 2 IS COMMON TO ALL TEAMS
+        •	BOTH MEMBERS CAN PARTICIPATE.
+        •	HAVE TO GUESS THE REVERSED SONG, IF FOUND, THEN THEY CAN PROCEED TO CODE.BOTH CAN DISCUSS AND SOLVE THE PROBLEM.
+        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 3:
+        •	GUESS THE SONG FROM THE BEAT, THE EARLIER YOU FIND THE EASIER YOU CAN WIN.
+        •	PLAYERS WILL BE PROVIDED WITH QUESTIONS BASED ON A TIME CONSTRAINT, IF YOU GUESS IT EARLY, YOU GET AN EASY CHALLENGE TO SOLVE.
+        •	FOR EXAMPLE:
+        •	IF FOUND WITHIN 2 MINUTES- EASY,
+        •	IF FOUND WITHIN 3 MINUTES-MEDIUM
+        •	IF FOUND WITHIN 5 MINUTES (MINIMUM)-HARD.
+        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        `,
+        coordinators:"	B PAWAN KALYAN ,E DHARSHINI ,KAVIYASRI V ,KAVI T ,R S RAGHAVEE ",
         timing:"1hrs",
         buttonText: "View More",
       },
-      {eventname:"event1",
+      {eventname:"Beyond Your Visuals",
         imageSrc: p5,
         duration:"10",
-        description:`A single team must consist of 2 members
-        •	The overall competition consists of three rounds. 
-        •	Each round is fifteen minutes long.
-        •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-        •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-        •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-        •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-        •	Between each round, a team will be eliminated.`,
-        coordinators:"me and u",
+        description:`GENERAL RULES:
+        •	EACH TEAM SHOULD CONSIST OF 1 MEMBERS.
+        •	THERE WILL BE 3 ROUNDS.
+        •	THE PROGRAMMING LANGUAGES: JAVA, C/C++, PYTHON
+        •	NO MALPRACTICE
+        •	ROUGH PAPER WILL BE PROVIDED FOR ATTENDIES TO USE
+        ROUND 1:
+        •	QUESTIONS WILL BE VIEWED FOR ONE MINUTE , MONITOR WILL BE TURNED OFF AFTER THAT  
+        •	FOR EACH DURATION OF TWO MINUTES , THE CODER CAN VIEW THE MONITOR ONCE FOR 10 SECONDS
+        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 2:
+        •	YOUR PAIR WILL BE SELECTED BASED ON PAPER BOWL METHOD
+        •	BOTH MEMBERS CAN PARTICIPATE.
+        •	THE PERSON WHO COMPLETES THE CODE FIRST WINS.
+        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 3:
+        •	CONSTRAINTS WILL BE GIVEN BASED ON THE PROBLEM 
+        •	NO FOR LOOP SHOULD BE USED
+        •	NO BUILT IN FUNCTION SHOULD BE USED 
+        •	THE CODE SHOULD BE COMPLETED WITHIN A STIPULATED LINES 
+        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.        
+        `,
+        coordinators:"R NAVEEN ,KANISHKA BHARATHI A ,ILAKKIYA S M ,KRISHNA G",
         timing:"1hrs",
         buttonText: "View More",
       },

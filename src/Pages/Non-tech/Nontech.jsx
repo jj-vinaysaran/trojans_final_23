@@ -50,18 +50,21 @@ function Nontech() {
       timing:"1hrs",
       buttonText: "View More",
     },
-    {eventname:"event1",
+    {eventname:"ImpactX",
       imageSrc: p5,
       duration:"10",
-      description:`A single team must consist of 2 members
-      •	The overall competition consists of three rounds. 
-      •	Each round is fifteen minutes long.
-      •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-      •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-      •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-      •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-      •	Between each round, a team will be eliminated.`,
-      coordinators:"me and u",
+      description:`Description:
+      Bring life to your ideas through this ecstatic event ImpactX - Unfold brilliance and elevate your ideas through a paper presentation event.
+      Rules:
+      •	The participants have to submit their abstract in the form of PPT through Google Form
+      •	Maximum team members allowed will be 3
+      •	Presentations must be completed within 5 minutes.
+      •	Be Clear and Concise
+      •	3 mins of time will be allotted to answer the questions posed by the judges
+      •	Keep your content professional and relevant to the topic.
+      •	Uniqueness of ideas, innovative approaches, or fresh perspectives in addressing the subject matter
+      `,
+      coordinators:"Vinay Saran JJ,Amrize,Padmavarshini B",
       timing:"1hrs",
       buttonText: "View More",
     },

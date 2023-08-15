@@ -1,63 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
-.main_detail{
-    background-color:black;
+.main_detail {
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.tags_detail{
+
+.tags_detail {
     align-self: flex-start;
 }
-.detail_cont{
+
+.detail_cont {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* background-color:aqua; */
     background-color: black;
-    height:max-content;
+    height: max-content;
 }
-.detail_inside{
+
+#detail_inside {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
     box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
-    background-color:bisque;
+    background-color: bisque;
     border-radius: 10px;
     width: 70%;
-    height:max-content;
+    height: max-content;
     padding: 20px;
     gap: 20px;
     color: white;
-    background-color:black;
+    background-color: black;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.detail_head{
-align-self: center;
-border-bottom: 2px solid rgb(10, 255, 251);
-width: 100%;
-font-size: 50px;
-font-family: 'Cinzel', serif;
 
-text-transform: uppercase;
-text-align: center;
+.detail_head {
+    align-self: center;
+    border-bottom: 2px solid rgb(10, 255, 251);
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+
+    text-transform: uppercase;
+    text-align: center;
     text-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px;
-color: #fff6a9;
+    color: #fff6a9;
 
 }
-.tags_event{
+
+.tags_event {
     font-size: 4rem;
     text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
-    
+
     color: rgb(0, 0, 0);
 }
-#heading-detail{
+
+#heading-detail {
     margin-inline: auto;
     color: white;
     color: black;
@@ -65,127 +71,156 @@ color: #fff6a9;
     font-family: 'Cinzel', serif;
 
     text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
-      font-size: 60px;
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    font-size: 60px;
     z-index: 2;
 }
-.detail_dura{
+
+.detail_dura {
 
     font-size: 30px;
     text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
 }
-.detail_time{
-    
+
+.detail_time {
+
     font-size: 30px;
     /* align-self: center; */
     text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
 }
-.detail_descp_point{
+
+.detail_descp_point {
     line-height: 30px;
 }
-.detail_descp{
+
+.detail_descp {
     text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
     /* width: 0%; */
     /* text-align:justify; */
     font-size: 30px;
 }
-.back{
+
+.back {
     font-size: 60px;
     align-self: flex-start;
     z-index: 9999999;
     cursor: pointer;
 }
-.enter{
+
+.enter {
     width: 100%;
     display: flex;
 }
-#heading-detail{
+
+#heading-detail {
     align-items: center;
 }
- @media screen  and (max-width:1024px) {
-    .detail_inside{
+
+@media screen and (max-width:1024px) {
+    .main_detail {
+        width: 98vw;
+    }
+
+    #detail_inside {
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
         flex-direction: column;
         background-color: black;
-        width: 92%;
-        height:fit-content;
+        width: 96%;
+        height: fit-content;
         padding: 30px;
 
-        
-} 
-.back{
-    z-index: 9999999;
-    font-size: 35px;
-    align-self: flex-start;
-    cursor: pointer;
-}
-.tags_event{
-    font-size: 2rem;
-    text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
-    
-    color: rgb(0, 0, 0);
-}
-#heading-detail{
-    margin-inline: auto;
-    color: black;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
-      font-size: 8vw;
-    z-index: 2;
-    align-self: center;
-    justify-self: center;
-}
-.detail_head{
-    align-self: center;
-    border-bottom: 2px solid rgb(10, 255, 251);
-    width: 100%;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-        text-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px;
-    color: #fff6a9;
-    
-    }
-    .detail_dura{
 
-        font-size: 20px;
+    }
+
+    .back {
+        z-index: 9999999;
+        font-size: 35px;
+        align-self: flex-start;
+        cursor: pointer;
+    }
+
+    .tags_event {
+        font-size: 2rem;
+        text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
+
+        color: rgb(0, 0, 0);
+    }
+
+    #heading-detail {
+        margin-inline: auto;
+        color: black;
+        text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+        font-size: 8vw;
+        z-index: 2;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .detail_head {
+        align-self: center;
+        border-bottom: 2px solid rgb(10, 255, 251);
+        width: 100%;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px;
+        color: #fff6a9;
+
+    }
+
+    .detail_dura {
+
+        font-size: 15px;
         text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
         color: #fff6a9;
     }
-    .detail_time{
-        
+
+    .detail_time {
+
         font-size: 20px;
         /* align-self: center; */
         text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
         color: #fff6a9;
     }
-    .detail_descp_point{
+
+    .detail_descp_point {
+        font-size: 15px;
         line-height: 5vw;
     }
-    .detail_descp{
+    .detail_time span{
+        font-size: 15px;
+
+    }
+
+    .detail_descp {
         text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
         color: #fff6a9;
         /* width: 0%; */
         /* text-align:justify; */
         font-size: 20px;
     }
- }
+
+    .detail_cont {
+        width: 99%;
+    }
+}
