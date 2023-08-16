@@ -35,18 +35,22 @@ function Nontech() {
       timing:"1hrs",
       buttonText: "View More",
     },
-    {eventname:"event1",
+    {eventname:"Brainaholic",
       imageSrc: p5,
       duration:"10",
-      description:`A single team must consist of 2 members
-      •	The overall competition consists of three rounds. 
-      •	Each round is fifteen minutes long.
-      •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-      •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-      •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-      •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-      •	Between each round, a team will be eliminated.`,
-      coordinators:"me and u",
+      description:`
+      Dive into the world of brain teasers and trickers by participating in Brainaholic! Test your knowledge and revel in the joy of face-to-face competition. Join us for a quiz extravanganza.
+      
+      RULES:
+      •	The game consists of three rounds.
+      •	Each team can have maximum of three members.
+      •	Each round has a time limit of 20mins.
+      •	Mobile phone usage is strictly prohibited.
+      •	No additional opportunities will be provided .
+      •	Participants are requested to respond within the designated time limit .
+      
+      `,
+      coordinators:"B. Kishore,Evelyn Beatrice A,Hariharan",
       timing:"1hrs",
       buttonText: "View More",
     },
