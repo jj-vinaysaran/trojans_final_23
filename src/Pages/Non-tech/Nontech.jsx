@@ -1,42 +1,53 @@
 import React from 'react'
 import "./nontech.css"
-import p5 from "../../Images/Tech/codegizza.jpeg"
+import shot from "../../Images/NonTech/One_Shot.jpeg";
+import brain from "../../Images/NonTech/Brainaholic.jpeg";
+import Craft from "../../Images/NonTech/Crafter_tactics.jpeg";
+import impact from "../../Images/NonTech/ImpactX.jpeg";
 import { useNavigate } from 'react-router-dom';
 function Nontech() {
   const navigate=useNavigate();
   const Nontechdatas = [
-    {eventname:"event1",
-      imageSrc: p5,
+    {eventname:"One-Shot",
+      imageSrc: shot,
       duration:"10",
-      description:`A single team must consist of 2 members
-      •	The overall competition consists of three rounds. 
-      •	Each round is fifteen minutes long.
-      •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-      •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-      •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-      •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-      •	Between each round, a team will be eliminated.`,
-      coordinators:"me and u",
+      description:`A dynamic campus tapestry unfolds: laughter in the quad, focused minds in libraries, and diverse unity over shared meals.
+      Athletes' determination, artists' passion, and captivating performances reveal a vibrant Trojan journey.
+      In one frame, emotions and time unite, chronicling a pulsating college narrative.
+      Rules
+      •	Individual participation only.
+      •	The captured moments should be in reel format
+      •	Shoot should be within the campus
+      •	Participants should bring their own properties (DSLR , mobile , anything as per your convenience)
+      •	 Reel must be within 1 min 
+      •	The capture moments should be in appropriate manner.
+      •	Plagiarism is strictly prohibited`,
+      coordinators:"S Sameerul Hak, Vinay Saran JJ,Krishna G,Roshika,Pavi,Rithika",
       timing:"1hrs",
       buttonText: "View More",
     },
-    {eventname:"event1",
-      imageSrc: p5,
+    {eventname:"Crafter Tactics",
+      imageSrc: Craft,
       duration:"10",
-      description:`A single team must consist of 2 members
-      •	The overall competition consists of three rounds. 
-      •	Each round is fifteen minutes long.
-      •	When the event begins, one person will begin coding while the other is absent.  After 3 minutes, the second person will pick up where the first left off.
-      •	The first round involves reverse coding. Teams will be given an input and output format and will be expected to code for it.
-      •	The second round is shortest code, where the code's efficiency is evaluated.  The efficient code will score higher marks
-      •	The fastest code is used in the third round. The teams that solve the problem the fastest will receive higher marks.
-      •	Between each round, a team will be eliminated.`,
-      coordinators:"me and u",
+      description:`Rules:
+      •	1.Group or individual participation allowed
+      •	2.Each group should consists of 2-3 members only 
+      •	3.The individual member have 2-3 minutes time for their presentation(timings may be change)
+      •	4.Groups have 5 minutes duration for their presentation(timings may be changes)
+      •	5.The topic will be given on the spot.
+      •	6.The participant should be present according to their topic 
+      •	7.Teams will be evaluated based on creativity, feasibility, clarity of presentation, 
+      •	and their way of marketing with the given topic.
+      •	8.The decision of the judging panel will be final and binding.
+      •	9.Prizes will be awarded to the teams with the most outstanding marketing strategies and presentations.
+      •	10.All participating teams will receive a certificate of participation.
+      .`,
+      coordinators:"S Sameerul Hak ,Suriya , Sharvesh",
       timing:"1hrs",
       buttonText: "View More",
     },
     {eventname:"Brainaholic",
-      imageSrc: p5,
+      imageSrc: brain,
       duration:"10",
       description:`
       Dive into the world of brain teasers and trickers by participating in Brainaholic! Test your knowledge and revel in the joy of face-to-face competition. Join us for a quiz extravanganza.
@@ -55,7 +66,7 @@ function Nontech() {
       buttonText: "View More",
     },
     {eventname:"ImpactX",
-      imageSrc: p5,
+      imageSrc: impact,
       duration:"10",
       description:`Description:
       Bring life to your ideas through this ecstatic event ImpactX - Unfold brilliance and elevate your ideas through a paper presentation event.

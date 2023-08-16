@@ -47,11 +47,6 @@ function Navbar() {
               Sponsors
             </Link>
           </li>
-          <li className="nav-lst">
-            <Link to="/register" className="nvg-opt" data-text="Register" onClick={closeMenu}>
-              Register
-            </Link>
-          </li>
         </ul>
       </nav>
     </div>

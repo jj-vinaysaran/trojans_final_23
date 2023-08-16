@@ -1,12 +1,15 @@
 import React from 'react'
 import "./technical.css"
-import p5 from "../../Images/Tech/codegizza.jpeg"
+import  Beyond from "../../Images/Tech/BeyondTheVisual.jpg"
+import  CodeBeat from "../../Images/Tech/CodeBeats1.jpg"
+import  Code from "../../Images/Tech/CodersChemistry.jpg"
+import  Quiz from "../../Images/Tech/QuizTopher.jpg"
 import { useNavigate } from 'react-router-dom';
 function Technical() {
   const navigate=useNavigate();
     const Nontechdatas = [
       {eventname:"Coders Chemistry",
-        imageSrc: p5,
+        imageSrc: Code,
         duration:"10",
         description:`GENERAL RULES:
         ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
@@ -33,7 +36,7 @@ function Technical() {
         buttonText: "View More",
       },
       {eventname:"Quiztopher",
-        imageSrc: p5,
+        imageSrc: Quiz,
         duration:"10",
         description:`GENERAL RULES:
         •	EACH TEAM SHOULD CONSISTS A MAXIMUM OF 3 MEMBERS.
@@ -58,7 +61,7 @@ function Technical() {
         buttonText: "View More",
       },
       {eventname:"Code Beats",
-        imageSrc: p5,
+        imageSrc: CodeBeat,
         duration:"10",
         description:`GENERAL RULES:
         •	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
@@ -90,7 +93,7 @@ function Technical() {
         buttonText: "View More",
       },
       {eventname:"Beyond Your Visuals",
-        imageSrc: p5,
+        imageSrc: Beyond,
         duration:"10",
         description:`GENERAL RULES:
         •	EACH TEAM SHOULD CONSIST OF 1 MEMBERS.
