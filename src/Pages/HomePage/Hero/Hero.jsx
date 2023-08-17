@@ -46,7 +46,7 @@ function Hero() {
               <div className='navigator'>
                             <span className="body__row-arrow2"></span>  
                             <span className='change_btn' onClick={() => handleClick(disp)}>
-                           <span className='next_page'> <span className='cd'>cd </span>{change[disp]} </span><span className="body__row-arrow"></span>
+                           <span className='next_page'> <span className='cd'>cd </span>{change[disp]} </span>
                            </span>
                            <span className="body__row-cursor"> </span>
               </div>

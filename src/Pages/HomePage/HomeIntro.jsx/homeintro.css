@@ -30,7 +30,7 @@
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    z-index: 9;
+    z-index: 99999;
     width: fit-content;
     padding: 11px;
     text-decoration: none;
@@ -131,7 +131,7 @@
       font-size: 20px;
       border: none;
       border-radius: 10px;
-      z-index: 9;
+      z-index: 999999;
       text-decoration: none;
       list-style: none;
       font-weight: bold;

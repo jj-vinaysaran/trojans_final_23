@@ -47,6 +47,11 @@ function Navbar() {
               Sponsors
             </Link>
           </li>
+          <li className="nav-lst">
+            <a href='https://forms.gle/73pTcgqmeRREtKuR8' className="nvg-opt" data-text="Sponsors" onClick={closeMenu}>
+              Register
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
