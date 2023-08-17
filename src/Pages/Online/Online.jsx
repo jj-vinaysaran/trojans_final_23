@@ -1,14 +1,12 @@
 import React from 'react'
-import  Beyond from "../../Images/Tech/BeyondTheVisual.jpg"
-import  CodeBeat from "../../Images/Tech/CodeBeats1.jpg"
-import  Code from "../../Images/Tech/CodersChemistry.jpg"
-import  Quiz from "../../Images/Tech/QuizTopher.jpg"
+import stop from "../../Images/Online/SHUTTER STOP (1).png";
+import valo from "../../Images/Online/valo.png";
 import { useNavigate } from 'react-router-dom';
 function Online() {
   const navigate=useNavigate();
     const Nontechdatas = [
-      {eventname:"Coders Chemistry",
-        imageSrc: Code,
+      {eventname:"Valorant",
+        imageSrc: valo,
         duration:"10",
         description:`GENERAL RULES:
         ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
@@ -34,8 +32,8 @@ function Online() {
         timing:"1hrs",
         buttonText: "View More",
       },
-      {eventname:"Quiztopher",
-        imageSrc: Quiz,
+      {eventname:"Shutter Stop",
+        imageSrc: stop,
         duration:"10",
         description:`GENERAL RULES:
         •	EACH TEAM SHOULD CONSISTS A MAXIMUM OF 3 MEMBERS.
@@ -58,70 +56,7 @@ function Online() {
         coordinators:"VISHAL RK ,	ABHISHEK DAS ,	SUBITHA S ,	PRANAVI RETHIKA VS ,	SYED NADEEM G ",
         timing:"1hrs",
         buttonText: "View More",
-      },
-      {eventname:"Code Beats",
-        imageSrc: CodeBeat,
-        duration:"10",
-        description:`GENERAL RULES:
-        •	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
-        •	THERE WILL BE 3 ROUNDS.
-        •	TEAM MEMBERS ARE NOT ALLOWED TO COMMUNICATE WITH EACH OTHER IN THE 1ST ROUND.
-        •	THE PROGRAMMING LANGUAGES: JAVA, C, C++, PYTHON
-        •	NO MALPRACTICE
-        •	ROUGH PAPER WILL BE PROVIDED FOR ATTENDIES TO USE
-        ROUND 1:
-        •	ONE MEMBER SHOULD CODE THE ANSWERS FOR THE QUESTIONS, WHILE THE OTHER CAN PARTICIPATE IN THE GUESSING GAME
-        •	ONE MEMBER LISTENS TO MUSIC AND HAVE TO FIND THE CORRESPONDING MOVIE(HEADPHONES WOULD BE PROVIDED)
-        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 2:
-        •	ROUND 2 IS COMMON TO ALL TEAMS
-        •	BOTH MEMBERS CAN PARTICIPATE.
-        •	HAVE TO GUESS THE REVERSED SONG, IF FOUND, THEN THEY CAN PROCEED TO CODE.BOTH CAN DISCUSS AND SOLVE THE PROBLEM.
-        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 3:
-        •	GUESS THE SONG FROM THE BEAT, THE EARLIER YOU FIND THE EASIER YOU CAN WIN.
-        •	PLAYERS WILL BE PROVIDED WITH QUESTIONS BASED ON A TIME CONSTRAINT, IF YOU GUESS IT EARLY, YOU GET AN EASY CHALLENGE TO SOLVE.
-        •	FOR EXAMPLE:
-        •	IF FOUND WITHIN 2 MINUTES- EASY,
-        •	IF FOUND WITHIN 3 MINUTES-MEDIUM
-        •	IF FOUND WITHIN 5 MINUTES (MINIMUM)-HARD.
-        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        `,
-        coordinators:"	B PAWAN KALYAN ,E DHARSHINI ,KAVIYASRI V ,KAVI T ,R S RAGHAVEE ",
-        timing:"1hrs",
-        buttonText: "View More",
-      },
-      {eventname:"Beyond Your Visuals",
-        imageSrc: Beyond,
-        duration:"10",
-        description:`GENERAL RULES:
-        •	EACH TEAM SHOULD CONSIST OF 1 MEMBERS.
-        •	THERE WILL BE 3 ROUNDS.
-        •	THE PROGRAMMING LANGUAGES: JAVA, C/C++, PYTHON
-        •	NO MALPRACTICE
-        •	ROUGH PAPER WILL BE PROVIDED FOR ATTENDIES TO USE
-        ROUND 1:
-        •	QUESTIONS WILL BE VIEWED FOR ONE MINUTE , MONITOR WILL BE TURNED OFF AFTER THAT  
-        •	FOR EACH DURATION OF TWO MINUTES , THE CODER CAN VIEW THE MONITOR ONCE FOR 10 SECONDS
-        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 2:
-        •	YOUR PAIR WILL BE SELECTED BASED ON PAPER BOWL METHOD
-        •	BOTH MEMBERS CAN PARTICIPATE.
-        •	THE PERSON WHO COMPLETES THE CODE FIRST WINS.
-        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 3:
-        •	CONSTRAINTS WILL BE GIVEN BASED ON THE PROBLEM 
-        •	NO FOR LOOP SHOULD BE USED
-        •	NO BUILT IN FUNCTION SHOULD BE USED 
-        •	THE CODE SHOULD BE COMPLETED WITHIN A STIPULATED LINES 
-        •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.        
-        `,
-        coordinators:"R NAVEEN ,KANISHKA BHARATHI A ,ILAKKIYA S M ,KRISHNA G",
-        timing:"1hrs",
-        buttonText: "View More",
-      },
-  
-     
+      }
     ];
     const sharedata=(event)=>{
       navigate('/eventdetail', { state: { eventname: event.eventname,
@@ -129,7 +64,7 @@ function Online() {
     description:event.description,
   coordinators:event.coordinators,
 timing:event.timing,
-eventtype:"/tech"} });
+eventtype:"/online"} });
     }
     return (
       <div>
