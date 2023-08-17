@@ -47,6 +47,7 @@
     width: 40%;
     height: 186px;
     position: relative;
+    z-index: 888888;
     /* bottom: 5%; */
   }
   #dept-intro {
