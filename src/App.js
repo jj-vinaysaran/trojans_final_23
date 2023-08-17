@@ -12,6 +12,7 @@ import Navbar from "./Pages/Navbar/Navbar.jsx";
 import DetailEvent from "./Pages/DetailEvent/DetailEvent.jsx";
 import Hero from "./Pages/HomePage/Hero/Hero.jsx";
 import WorkDetail from "./Pages/WorkDetail/WorkDetail.jsx";
+import Online from "./Pages/Online/Online.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/online" element={<Online />} />
           <Route path="/register" element={<Register />} />
           <Route path="/events" element={<EventSelect />} />
           <Route path="/tech" element={<Technical />} />

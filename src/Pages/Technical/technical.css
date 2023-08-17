@@ -55,7 +55,6 @@ color: white;
     width: fit-content;
     align-items: center;
     justify-content:center;
-    /* background-color:aliceblue; */
     gap: 0;
     
 }
@@ -71,16 +70,12 @@ color: white;
 .view-more-button{
     align-self:center;
     color: rgb(255, 255, 255);
-    /* background-color: white; */
-    /* border: 2px solid red; */
     border-radius:10px ;
     box-shadow: 0 0 2px #1ce1ff, 0 0 5px #1ce1ff, 0 0 15px #1ce1ff,
     0 0 30px #1ce1ff;
-    /* box-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px; */
-    /* text-shadow: 0 0 5px #fff, 0 0 3px #fff, 0 0 5px rgb(238, 250, 58), 0 0 10px rgb(238, 250, 58), 0 0 3px rgb(238, 250, 58), 0 0 5px rgb(238, 250, 58), 0 0 5px rgb(238, 250, 58); */
-    /* box-shadow: 0 0 5px #fff, 0 0 1px #fff, 0 0 2px rgb(238, 250, 58), 0 0 2px rgb(238, 250, 58), 0 0 2px rgb(238, 250, 58), 0 0 3px rgb(238, 250, 58), 0 0 2px rgb(238, 250, 58); */
     padding: 10px;
     font-size:100%;
+    cursor: pointer;
     -webkit-border-radius:10px ;
     -moz-border-radius:10px ;
     -ms-border-radius:10px ;
@@ -119,17 +114,7 @@ color: white;
         font-size: 30px;
     }
     
-    /* .Event-Temp-Cont{
-        background-color:rgba(21, 20, 20,0.9);
-        /* background-color: red; */
-        /* display: flex;
-        justify-content:center; */
-        /* align-items: center; */
-        /* flex-direction: column;
-        padding: 10px;
-        color: white; */
-        
-        /* } */
+
     .view-cont-more{
         align-self:center;
         position: relative;
@@ -137,22 +122,16 @@ color: white;
         margin: 10px;
         font-size: 20px;
     }
-    /* .all-events{
-        align-self: center;
-        justify-self: center;
-    } */
+   
 
     .view-more-button{
         align-self:center;
         color: rgb(255, 255, 255);
         border-radius:10px ;
-        /* box-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px; */
-        /* text-shadow: 0 0 5px #fff, 0 0 10px #
-        fff, 0 0 15px rgb(238, 250, 58), 0 0 20px rgb(238, 250, 58), 0 0 25px rgb(238, 250, 58), 0 0 30px rgb(238, 250, 58), 0 0 35px rgb(238, 250, 58); */
-        /* box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(238, 250, 58), 0 0 20px rgb(238, 250, 58), 0 0 25px rgb(238, 250, 58), 0 0 30px rgb(238, 250, 58), 0 0 35px rgb(238, 250, 58); */
         padding: 10px;
         font-size:100%;
         border: none;
+        cursor: pointer;
         -webkit-border-radius:10px ;
         -moz-border-radius:10px ;
         -ms-border-radius:10px ;
@@ -178,9 +157,7 @@ color: white;
 
     }
     .tags{
-        /* background-color: black; */
-        text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
-        
+        text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;        
         color: rgb(0, 0, 0);
         font-size: 2rem;
     }
