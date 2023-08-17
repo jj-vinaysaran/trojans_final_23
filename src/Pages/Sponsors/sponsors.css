@@ -92,14 +92,14 @@ html{
   
   
   
-  .card-layer h4{
+  .card-layer .sponsorh4{
   font-size: 3rem;
   color : rgb(0, 0, 0);
   margin-bottom: 5rem;
   }
   
   
-  .card-layer p{
+  .card-layer .sponsp{
   font-size: 2.4rem;
   color : rgb(0, 0, 0);
   margin: .3rem 0 1rem;
@@ -125,60 +125,6 @@ html{
   margin-top: 4px;
   }
 
-
-/* ============================= Developers ==================================*/
-.developers{
-  /* background-color: #fff; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  height: max-content;
-  /* margin: 20px 0px; */
-} 
-.dev_card_parent{
-  /* background-color:green; */
-  width: 100%;
-
-  padding: 40px;
-  display: flex;
-  gap: 30px;
-}
-.dev_card{
-  width: 25%;
-  height: max-content;
-  color: white;
-  /* background-color: red; */
-  border-radius: 10px;
-  display: flex;
-  box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-/* a{
-  text-decoration: none;
-} */
-.dev_title{
-  font-size: 5vw;
-  /* color: white; */
-  color: #31afaf;
-  border-bottom: 2px solid red;
-}
-.dev_name{
-  font-size: 2.5vw;
-  padding: 10px;
-  color: red;
-}
-.dev_role{
-  font-size: 1.6vw;
-  padding: 10px;
-}
-.dev_icons{
-  font-size:30px;
-  text-decoration: none;
-}
   @media screen and (max-width : 1024px){
   
   
@@ -239,6 +185,14 @@ html{
         /* margin-top: 10rem; */
         /* font-size: 3vw; */
     }
+
+    .card .sponsorh4{
+      font-size: 40px;
+    }
+     .card .sponsp{
+      font-size: 30px;
+      /* background-color: #31afaf; */
+    }
   
     .card .card-container{
         grid-template-columns: repeat(2,1fr);
@@ -254,5 +208,6 @@ html{
     .card .card-container{
         grid-template-columns: 1fr;
     }
+    
   
   }
