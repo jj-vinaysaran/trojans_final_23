@@ -1,11 +1,12 @@
 import React from 'react'
 import stop from "../../Images/Online/SHUTTER STOP (1).png";
 import valo from "../../Images/Online/valo.png";
+import pubg from "../../Images/Online/pubgedited.jpg";
 import { useNavigate } from 'react-router-dom';
 function Online() {
   const navigate=useNavigate();
     const Nontechdatas = [
-      {eventname:"Valorant",
+      {eventname:"Valorant(Online)",
         imageSrc: valo,
         duration:"10",
         description:`GENERAL RULES:
@@ -32,7 +33,7 @@ function Online() {
         timing:"1hrs",
         buttonText: "View More",
       },
-      {eventname:"Shutter Stop",
+      {eventname:"Shutter Stop(Online)",
         imageSrc: stop,
         duration:"10",
         description:`GENERAL RULES:
@@ -54,6 +55,33 @@ function Online() {
         •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
         `,
         coordinators:"VISHAL RK ,	ABHISHEK DAS ,	SUBITHA S ,	PRANAVI RETHIKA VS ,	SYED NADEEM G ",
+        timing:"1hrs",
+        buttonText: "View More"
+      },
+      {eventname:"BGMI (Offline)",
+        imageSrc: pubg,
+        duration:"10",
+        description:`GENERAL RULES:
+        ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
+        ●	THERE WILL BE 3 ROUNDS.
+        ●	TEAM MEMBERS ARE NOT ALLOWED TO COMMUNICATE WITH EACH OTHER IN THE 1ST AND 2ND ROUNDS.
+        ●	THE PROGRAMMING LANGUAGES: JAVA, C, C++, PYTHON
+        ROUND 1:
+        ●	ONE MEMBER SHOULD CODE THE ANSWERS FOR THE QUESTIONS, WHILE THE OTHER SHOULD IMPLEMENT THE LOGIC USING THE PAPER-AND-PEN METHOD.
+        ●	THE MEMBERS WILL SWAP ROLES EVERY 3 MINUTES AND PROCEED WITH THE REMAINING PART OF THE CODE.
+        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 2:
+        ●	BOTH TEAM MEMBERS HAVE TO CODE SIMULTANEOUSLY ON DIFFERENT PROBLEMS.
+        ●	THE POSITIONS OF THE TEAMMATES ARE SWAPPED EVERY 4 MINUTES.
+        ●	THE AVERAGE SCORE OF THE TEAM IS CONSIDERED FOR ELIMINATION.
+        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
+        ROUND 3:
+        ●	THE TEAM WILL BE GIVEN A SET OF PROBLEMS TO SOLVE.
+        ●	BOTH TEAM MEMBERS CAN DISCUSS AND SOLVE THE PROBLEMS.
+        ●	PROBLEMS WILL BE BASED ON DATA STRUCTURES & ALGORITHMS.
+        ●	THE TIME DURATION FOR THIS ROUND IS 20 MINUTES.
+        `,
+        coordinators:`HARI PRASAD R ,SARUMATHI ,SHANMUGA PRIYA ,SOWMIYA `,
         timing:"1hrs",
         buttonText: "View More",
       }
