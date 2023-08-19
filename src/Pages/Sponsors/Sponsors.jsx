@@ -46,7 +46,7 @@ import { FaGithub } from "react-icons/fa";
             return(
                 <>
                 <div className = "main_sponsors">
-                <h1 className="oursp"> OUR SPONSORS</h1>
+                <h1 className="oursp"> {"<OUR SPONSORS />"} </h1>
                     <div className = "cards"> 
                     <Cards/>
                     </div>
