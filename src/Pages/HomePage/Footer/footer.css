@@ -34,6 +34,7 @@ margin-top: 80px;
 .footer_p{
     color: rgb(26, 237, 233);
     padding: 10px;
+    font-size: large;
     position: relative;
     top: 20px;
 }

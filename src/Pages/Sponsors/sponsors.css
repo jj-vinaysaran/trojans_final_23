@@ -21,12 +21,24 @@ html{
   .main_sponsors .oursp{
   margin: 2rem 0 0 0 ;
   display: flex;
-  text-align: center;
   justify-content: center;
+  text-align: center;
   align-items: center;
   font-size: 60px;
-  color: aqua;
-  margin-inline: 10px;
+  margin-inline:5px;
+  color: black;
+  font-family: 'Cinzel', serif;
+
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  z-index: 2;
   
   }
   

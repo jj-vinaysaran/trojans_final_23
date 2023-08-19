@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-size: 'Poppins', sans-serif;
+    font-style: normal;
     /* color: white; */
 }
 .Event-Temp-Cont{

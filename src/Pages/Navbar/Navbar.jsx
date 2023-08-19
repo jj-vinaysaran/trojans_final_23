@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import Background from '../Background/Background'
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,6 +29,7 @@ function Navbar() {
   
       <nav className={`nav ${menuOpen ? "open" : ""}`}>
         <ul className="pt-5">
+      <Background/>
           <li className="nav-lst">
             <Link to="/" className="nvg-opt" data-text="Home" onClick={closeMenu}>
               Home
@@ -38,7 +41,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-lst">
-            <Link to="/online" className="nvg-opt" data-text="Events" onClick={closeMenu}>
+            <Link to="/online" className="nvg-opt" data-text="Online Events" onClick={closeMenu}>
               Online Events
             </Link>
           </li>
@@ -53,7 +56,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-lst">
-            <a href='https://forms.gle/73pTcgqmeRREtKuR8' className="nvg-opt" data-text="Sponsors" onClick={closeMenu}>
+            <a href='https://forms.gle/73pTcgqmeRREtKuR8' className="nvg-opt" data-text="Register" onClick={closeMenu}>
               Register
             </a>
           </li>
