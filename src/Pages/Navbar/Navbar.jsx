@@ -41,8 +41,8 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-lst">
-            <Link to="/online" className="nvg-opt" data-text="Online Events" onClick={closeMenu}>
-              Online Events
+            <Link to="/online" className="nvg-opt" data-text="Gaming" onClick={closeMenu}>
+              GAMING
             </Link>
           </li>
           <li className="nav-lst">
