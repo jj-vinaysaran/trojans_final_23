@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import Background from '../Background/Background'
+// import Background from '../Background/Background'
 
 
 function Navbar() {
@@ -29,7 +29,7 @@ function Navbar() {
   
       <nav className={`nav ${menuOpen ? "open" : ""}`}>
         <ul className="pt-5">
-      <Background/>
+      {/* <Background/> */}
           <li className="nav-lst">
             <Link to="/" className="nvg-opt" data-text="Home" onClick={closeMenu}>
               Home
