@@ -34,7 +34,7 @@ function WorkDetail() {
               <h3 key={index} className='detail_descp_point'>{point}</h3>
             ))}
           </div>
-          <h2 className='detail_time'>Coordinators:<span style={{color:"white", textShadow:"none"}}>{state.coordinators}</span> </h2>
+          <h2 className='detail_time'>Coordinators:<br/><span style={{color:"white", textShadow:"none"}}>{state.coordinators}</span> </h2>
           {/* Display other event details */}
         </div>
       </div>

@@ -18,15 +18,15 @@ export default function Footer() {
                         <h1 id="h1">Home</h1>
                         <a className="footer-a" href="/">About us</a>
                         <a className="footer-a" href="/">COLLEGE</a>
-                        <a className="footer-a" href="/">GOME</a>
+                        <a className="footer-a" href="/">HOME</a>
                        
                     </div>
                     <div className="childofevents">
                    
                         <h1 id="h1">Events</h1>
-                        <a className="footer-a" href="/">Technical</a>
-                        <a className="footer-a" href="/">Non Technical</a>
-                        <a className="footer-a" href="/">Workshop</a>
+                        <a className="footer-a" href="/tech">Technical</a>
+                        <a className="footer-a" href="/nontech">Non Technical</a>
+                        <a className="footer-a" href="/workshop">Workshop</a>
                        
                     </div>
                     <div className="childofevents">

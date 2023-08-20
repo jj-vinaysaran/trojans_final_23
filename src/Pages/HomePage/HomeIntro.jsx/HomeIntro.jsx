@@ -12,7 +12,7 @@ function HomeIntro() {
       <img src={Trojansimg} id="logo_trojans"  alt=""/>
       <h3 id="home-intro"><span className='tags_intro'>{"<"}</span> A NATIONAL LEVEL TECHNICAL SYMPOSIUM <span className='tags_intro'>{" />"}</span></h3>
 
-      <a href='https://forms.gle/73pTcgqmeRREtKuR8' className="register-button-home">
+      <a href='https://forms.gle/73pTcgqmeRREtKuR8' target="_blank" className="register-button-home">
         Register
       </a>
 
