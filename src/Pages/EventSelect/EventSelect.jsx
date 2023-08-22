@@ -31,7 +31,7 @@ function EventSelect() {
           <h2 className='run_btn' onClick={runbtn_tech}><a>Run</a></h2>
         </div>
         <div className='left_tech kela_cls'>
-          <h1 className='events_heading'>NON-TECHNICAL</h1>
+          <h1 className='events_heading'>FUN-TECHNICAL</h1>
           <img src={NonTechImg} className='events_img' alt="Non-Tech" />
           <h2 className='run_btn' onClick={runbtn_nontech}><a>Run</a></h2>
         </div>

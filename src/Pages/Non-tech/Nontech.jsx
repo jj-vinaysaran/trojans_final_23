@@ -100,7 +100,7 @@ eventtype:"/nontech" } });
       <div>
          <div className='Event-Temp-Cont'>
         <div className='titleofeventtype'>
-          <h1 id='mobile-view'>{"< Non Technical Events />"}</h1>
+          <h1 id='mobile-view'>{"< Fun Technical Events />"}</h1>
         </div>
         <h1 style={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" div "}</span><span className='tags'>{">"}</span></h1>
         <div className='all-events'>

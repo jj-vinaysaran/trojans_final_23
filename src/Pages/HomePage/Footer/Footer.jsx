@@ -27,7 +27,8 @@ export default function Footer() {
                         <a className="footer-a" href="/tech">Technical</a>
                         <a className="footer-a" href="/nontech">Non Technical</a>
                         <a className="footer-a" href="/workshop">Workshop</a>
-                       
+                        <a className="footer-a" href='https://forms.gle/73pTcgqmeRREtKuR8' target="_blank">Register</a>
+
                     </div>
                     <div className="childofevents">
                    
@@ -39,9 +40,14 @@ export default function Footer() {
                     </div>
                     <div className="childofevents">
                    
-                        <h1 id="h1">Contact Us</h1>
-                        <a className="footer-a" href="/">Contact</a>
-                        <a className="footer-a" href="/">Registration</a>
+                        <h1 id="h1">Developers</h1>
+                        <a className="footer-a" href="/">Vinay Saran</a>
+                        <a className="footer-a" href="/">Sameerul hak</a>
+                        <a className="footer-a" href="/">Pawan kalyan B</a>
+                        <a className="footer-a" href="/">ArunKumar</a>
+
+
+
                        
                     </div>
                     </div>
