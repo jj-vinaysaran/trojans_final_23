@@ -10,26 +10,14 @@ function Online() {
         imageSrc: valo,
         duration:"10",
         description:`GENERAL RULES:
-        ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
-        ●	THERE WILL BE 3 ROUNDS.
-        ●	TEAM MEMBERS ARE NOT ALLOWED TO COMMUNICATE WITH EACH OTHER IN THE 1ST AND 2ND ROUNDS.
-        ●	THE PROGRAMMING LANGUAGES: JAVA, C, C++, PYTHON
-        ROUND 1:
-        ●	ONE MEMBER SHOULD CODE THE ANSWERS FOR THE QUESTIONS, WHILE THE OTHER SHOULD IMPLEMENT THE LOGIC USING THE PAPER-AND-PEN METHOD.
-        ●	THE MEMBERS WILL SWAP ROLES EVERY 3 MINUTES AND PROCEED WITH THE REMAINING PART OF THE CODE.
-        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 2:
-        ●	BOTH TEAM MEMBERS HAVE TO CODE SIMULTANEOUSLY ON DIFFERENT PROBLEMS.
-        ●	THE POSITIONS OF THE TEAMMATES ARE SWAPPED EVERY 4 MINUTES.
-        ●	THE AVERAGE SCORE OF THE TEAM IS CONSIDERED FOR ELIMINATION.
-        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 3:
-        ●	THE TEAM WILL BE GIVEN A SET OF PROBLEMS TO SOLVE.
-        ●	BOTH TEAM MEMBERS CAN DISCUSS AND SOLVE THE PROBLEMS.
-        ●	PROBLEMS WILL BE BASED ON DATA STRUCTURES & ALGORITHMS.
-        ●	THE TIME DURATION FOR THIS ROUND IS 20 MINUTES.
+        ●	Team Head(Captain) must register with a unique Team Name,5 members and no substitutes.
+        ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
+        ●	Event is conducted in Online mode.
+        ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
+        ●	MAP TOOL : BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
+        ●	Tournament Admin will make decision based upon Regional latency.
         `,
-        coordinators:`HARI PRASAD R ,SARUMATHI ,SHANMUGA PRIYA ,SOWMIYA `,
+        coordinators:`VS Kanna `,
         timing:"1hrs",
         buttonText: "View More",
       },
@@ -62,26 +50,13 @@ function Online() {
         imageSrc: pubg,
         duration:"10",
         description:`GENERAL RULES:
-        ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
-        ●	THERE WILL BE 3 ROUNDS.
-        ●	TEAM MEMBERS ARE NOT ALLOWED TO COMMUNICATE WITH EACH OTHER IN THE 1ST AND 2ND ROUNDS.
-        ●	THE PROGRAMMING LANGUAGES: JAVA, C, C++, PYTHON
-        ROUND 1:
-        ●	ONE MEMBER SHOULD CODE THE ANSWERS FOR THE QUESTIONS, WHILE THE OTHER SHOULD IMPLEMENT THE LOGIC USING THE PAPER-AND-PEN METHOD.
-        ●	THE MEMBERS WILL SWAP ROLES EVERY 3 MINUTES AND PROCEED WITH THE REMAINING PART OF THE CODE.
-        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 2:
-        ●	BOTH TEAM MEMBERS HAVE TO CODE SIMULTANEOUSLY ON DIFFERENT PROBLEMS.
-        ●	THE POSITIONS OF THE TEAMMATES ARE SWAPPED EVERY 4 MINUTES.
-        ●	THE AVERAGE SCORE OF THE TEAM IS CONSIDERED FOR ELIMINATION.
-        ●	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
-        ROUND 3:
-        ●	THE TEAM WILL BE GIVEN A SET OF PROBLEMS TO SOLVE.
-        ●	BOTH TEAM MEMBERS CAN DISCUSS AND SOLVE THE PROBLEMS.
-        ●	PROBLEMS WILL BE BASED ON DATA STRUCTURES & ALGORITHMS.
-        ●	THE TIME DURATION FOR THIS ROUND IS 20 MINUTES.
+         ●	Team Head(Captain) must register with a unique Team Name,4 members and no substitutes.
+        ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
+        ●	Event is conducted in Offline mode.
+        ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
+        ●	Tournament Admin will make decision based upon Regional latency.
         `,
-        coordinators:`HARI PRASAD R ,SARUMATHI ,SHANMUGA PRIYA ,SOWMIYA `,
+        coordinators:`V S Kanna `,
         timing:"1hrs",
         buttonText: "View More",
       }

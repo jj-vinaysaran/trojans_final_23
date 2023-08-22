@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../../Images/Trojans/OnlyLogo_White.webp";
-import {FaInstagram , FaLinkedinIn , FaYoutube} from "react-icons/fa"
+import { FaTwitterSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 import "../Footer/footer.css";
 import image from "../../../Images/Trojans/Screenshot 2023-08-08 134643.png"
 import citlogo from "../../../Images/Trojans/cit_white_logo.webp";
@@ -25,7 +25,7 @@ export default function Footer() {
                    
                         <h1 id="h1">Events</h1>
                         <a className="footer-a" href="/tech">Technical</a>
-                        <a className="footer-a" href="/nontech">Non Technical</a>
+                        <a className="footer-a" href="/nontech">Fun Technical</a>
                         <a className="footer-a" href="/workshop">Workshop</a>
                         <a className="footer-a" href='https://forms.gle/73pTcgqmeRREtKuR8' target="_blank">Register</a>
 
@@ -33,18 +33,18 @@ export default function Footer() {
                     <div className="childofevents">
                    
                         <h1 id="h1">Connect With Us</h1>
-                        <a className="footer-a" href="/">Instagram</a>
-                        <a className="footer-a" href="/">Linked In</a>
-                        <a className="footer-a" href="/">Twitter</a>
+                        <a className="footer-a" href="/"> <FaInstagramSquare size={32} /> </a>
+                        <a className="footer-a" href="/"> <FaLinkedin size={32} /></a>
+                        <a className="footer-a" href="/"><FaTwitterSquare size={32} /> </a>
                        
                     </div>
                     <div className="childofevents">
                    
                         <h1 id="h1">Developers</h1>
-                        <a className="footer-a" href="/">Vinay Saran</a>
-                        <a className="footer-a" href="/">Sameerul hak</a>
-                        <a className="footer-a" href="/">Pawan kalyan B</a>
-                        <a className="footer-a" href="/">ArunKumar</a>
+                        <a className="footer-a" href="https://www.linkedin.com/in/vinay-saran-jj-b7861b22a/">Vinay Saran JJ</a>
+                        <a className="footer-a" href="https://www.linkedin.com/in/sameerul-hak-877194249/">Sameerul hak S</a>
+                        <a className="footer-a" href="https://www.linkedin.com/in/arunkumara03/">Arunkumar A</a>
+                        <a className="footer-a" href="https://www.linkedin.com/in/pawan-kalyan-6a2903218">Pawan Kalyan B</a>
 
 
 

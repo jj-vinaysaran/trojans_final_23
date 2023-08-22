@@ -19,7 +19,7 @@ function WorkDetail() {
     <div className='main_detail'>
       <div className='enter'>
       <span className='back' onClick={()=>gotoevent()}>⬅️</span> 
-      <h1 className='heading-detail'>{"< Detail Event />"}</h1>
+      <h1 className='heading-detail'>{"< WorkShop Detail/>"}</h1>
       </div>
       <h1 style={{margin:"10px"}} className='tags_detail'><span className='tags'>{"<"}</span><span className='tagname'>{" main "}</span><span className='tags'>{">"}</span></h1>
       <div className='detail_cont'>
