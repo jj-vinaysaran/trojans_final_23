@@ -67,6 +67,15 @@ margin-top: 80px;
     align-items: center;
     /* background-color:green; */
 }
+.lap{
+    display: flex;
+}
+.mobile{
+    display: none;
+}
+.social_icons{
+    display: none;
+}
 .terminal_img{
     width: 20%;
     /* background-color:red; */
@@ -79,9 +88,26 @@ margin-top: 80px;
     .terminal_img{
         display: none;
     }
+    .mobile{
+        display: flex;
+    }
+    .lap{
+        display: none;
+    }
     .clg_logo{
         width: 60%;
         height: fit-content;
+         /* background-color:red; */
+         display: grid;
+         place-items: center;
+    }
+    .clg_img{
+        margin-inline: center;
+        width: 90%;
+        /* background-color: #fff; */
+    }
+    .laptop{
+        display: none;
     }
     .footer_container{
         display: grid;
@@ -108,6 +134,12 @@ align-items: center;
     width: 100%;
     overflow: hidden;
 }
+.social_icons{
+    margin-inline: auto;
+}
+.devo{
+    grid-column: span 2;
+}
 /* .div_event{
     width: 100%;
     display: flex;
@@ -122,11 +154,13 @@ align-items: center;
     .childofevents{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         /* background-color:yellow; */
+        
         /* height: ; */
         width: 100%;
+        height:90%;
         /* background-color: #fff; */
         margin: 10px;
      

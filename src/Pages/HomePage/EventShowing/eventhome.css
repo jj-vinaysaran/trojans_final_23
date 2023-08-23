@@ -503,5 +503,7 @@ border-end-start-radius: 10px;
 	border-start-start-radius: 10px;
 }
 
-
+.bluetick{
+	width: 20px;
+}
 }

@@ -28,12 +28,12 @@ function EventSelect() {
         <div className='left_tech'>
           <h1 className='events_heading'>TECHNICAL</h1>
           <img src={TechImg} className='events_img' alt="Tech"/>
-          <h2 className='run_btn' onClick={runbtn_tech}><a>Run</a></h2>
+          <h2 className='run_btn' onClick={runbtn_tech}><a>Technical</a></h2>
         </div>
         <div className='left_tech kela_cls'>
           <h1 className='events_heading'>FUN-TECHNICAL</h1>
           <img src={NonTechImg} className='events_img' alt="Non-Tech" />
-          <h2 className='run_btn' onClick={runbtn_nontech}><a>Run</a></h2>
+          <h2 className='run_btn' onClick={runbtn_nontech}><a>Fun Tech</a></h2>
         </div>
       </div>
       <div className={compile ? "compiling" : "notcompile"}>

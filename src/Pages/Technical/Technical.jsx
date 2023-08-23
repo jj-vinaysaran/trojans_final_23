@@ -31,7 +31,11 @@ function Technical() {
         ●	PROBLEMS WILL BE BASED ON DATA STRUCTURES & ALGORITHMS.
         ●	THE TIME DURATION FOR THIS ROUND IS 20 MINUTES.
         `,
-        coordinators:`HARI PRASAD R ,SARUMATHI ,SHANMUGA PRIYA ,SOWMIYA `,
+        coordinators:`
+        •	HARI PRASAD R - 7550160349,
+        •	SARUMATHI - 
+        •	SHANMUGA PRIYA -  
+        •	SOWMIYA -`,
         timing:"1hrs",
         buttonText: "View More",
       },
@@ -56,7 +60,13 @@ function Technical() {
         •	PAPER AND PEN WILL BE PROVIDED FOR DEBUGGING.
         •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
         `,
-        coordinators:"VISHAL RK ,	ABHISHEK DAS ,	SUBITHA S ,	PRANAVI RETHIKA VS ,	SYED NADEEM G ",
+        coordinators:`
+        •	VISHAL RK – 9956189750  
+        •	ABHISHEK DAS - 
+        •	SUBITHA S - 
+        •	PRANAVI RETHIKA VS - 
+        •	SYED NADEEM G - 
+`,
         timing:"1hrs",
         buttonText: "View More",
       },
@@ -142,10 +152,10 @@ eventtype:"/tech"} });
         <div className='all-events'>
         {Nontechdatas.map((event, index) => (
             <div className='box-events' key={index}>
-              <h1 style={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" Img "}</span><span className='tags'>{">"}</span></h1>
+              <h1 style={{margin:"10px"}}></h1>
             <img className="event-image" src={event.imageSrc} alt="Event" />
-            <h2 className='closetag tags'>{"/>"}</h2>
-            <h2 className='view-cont-more'  onClick={()=>sharedata(event)}><span className='tags'>{"< "}</span> <span className='tagname'>{"a "}</span><a className='view-more-button'>{event.buttonText}</a><span className='tags'>{" />"}</span> </h2>
+            <h2 className='closetag tags'></h2>
+            <h2 className='view-cont-more'  onClick={()=>sharedata(event)}><a className='view-more-button'>{event.buttonText}</a></h2>
           </div>
         ))}
         </div>

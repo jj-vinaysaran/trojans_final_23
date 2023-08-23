@@ -30,15 +30,8 @@ export default function Footer() {
                         <a className="footer-a" href='https://forms.gle/73pTcgqmeRREtKuR8' target="_blank">Register</a>
 
                     </div>
-                    <div className="childofevents">
-                   
-                        <h1 id="h1">Connect With Us</h1>
-                        <a className="footer-a" href="/"> <FaInstagramSquare size={32} /> </a>
-                        <a className="footer-a" href="/"> <FaLinkedin size={32} /></a>
-                        <a className="footer-a" href="/"><FaTwitterSquare size={32} /> </a>
-                       
-                    </div>
-                    <div className="childofevents">
+                    
+                    <div className="childofevents devo">
                    
                         <h1 id="h1">Developers</h1>
                         <a className="footer-a" href="https://www.linkedin.com/in/vinay-saran-jj-b7861b22a/">Vinay Saran JJ</a>
@@ -51,11 +44,21 @@ export default function Footer() {
                        
                     </div>
                     </div>
+                    <div className="lap">
+                        <a className="footer-a" href="/"> <FaInstagramSquare size={32} /> </a>
+                        <a className="footer-a" href="/"> <FaLinkedin size={32} /></a>
+                        <a className="footer-a" href="/"><FaTwitterSquare size={32} /> </a>
+                    </div>
                     <p className="footer_p">PS C:\CIT\INFORMATION TECHNOLOGY\TROJANS\@COPYRIGHTS</p>
                 </div>
                 <div className="clg_logo">
                 <img src={citlogo} className="clg_img" alt="Trojans2023" /> 
                 </div>
+                <div className="mobile">
+                        <a className="footer-a" href="/"> <FaInstagramSquare size={32} /> </a>
+                        <a className="footer-a" href="/"> <FaLinkedin size={32} /></a>
+                        <a className="footer-a" href="/"><FaTwitterSquare size={32} /> </a>
+                    </div>
                 <div className="terminal_img"><img src={image}  className="terminal_image"alt="Trojans2023" />
 </div>
             </div>

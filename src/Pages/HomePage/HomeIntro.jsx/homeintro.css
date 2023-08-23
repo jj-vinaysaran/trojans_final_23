@@ -15,7 +15,8 @@
     top: 20px;
     font-size: 3.5vw;
     color: white;
-    font-family: 'Chakra Petch', sans-serif;    }
+    font-family: 'Chakra Petch', sans-serif;    
+  }
   .home_tags{
     font-size: 4vw;
     text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
@@ -37,7 +38,7 @@
     list-style: none;
     font-weight: bold;
     background: #11d6f4;
-    box-shadow: 0 0 5px #13bad8, 0 0 15px #1aa9bf;
+    /* box-shadow: 0 0 5px #13bad8, 0 0 15px #1aa9bf; */
   }
   .register-button-home:hover {
     background-color: #1ffbfe;
@@ -135,8 +136,8 @@
       text-decoration: none;
       list-style: none;
       font-weight: bold;
-      box-shadow: 0 0 5px #1ce1ff, 0 0 15px #1ce1ff, 0 0 30px #1ce1ff,
-        0 0 60px #1ce1ff;
+      /* box-shadow: 0 0 5px #1ce1ff, 0 0 15px #1ce1ff, 0 0 30px #1ce1ff,
+        0 0 60px #1ce1ff; */
     }
     .register-button-home:hover {
       background-color: #1ce1ff;
