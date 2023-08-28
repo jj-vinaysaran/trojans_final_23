@@ -133,13 +133,14 @@
     text-align: justify;
   }
   .body__row-git--branch {
-    color: #eb5757;
+    color: #3500D3;
+
   }
   .body__row-git--branch-detail {
     color: #f2c94c;
   }
   .body__row-git--branch-time {
-    color: #27ae60;
+    color: #3500D3;
   }
   .body__row-git--author {
 
@@ -150,12 +151,13 @@
   }
   
   .cd{
-      color: red;
+    color: white;
   }
   .next_page{
       color:green;
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 10px;
+      /*margin:40px;
+      *//*margin-left:5%;
+      */padding: 10px;
       border-radius: 10px;
       border:2px solid #56f2e6;
       -webkit-border-radius: 10px;
