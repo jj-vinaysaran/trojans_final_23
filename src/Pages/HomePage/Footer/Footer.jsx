@@ -1,67 +1,123 @@
 import React from "react";
-import Logo from "../../../Images/Trojans/OnlyLogo_White.webp";
-import { FaTwitterSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
-import "../Footer/footer.css";
-import image from "../../../Images/Trojans/Screenshot 2023-08-08 134643.png"
-import citlogo from "../../../Images/Trojans/cit_white_logo.webp";
+import CIT from "../../..//Images/Trojans/cit_white_logo.webp"
+import Trojans from "../../..//Images/Trojans/trojans_logo.webp"
 
-export default function Footer() {
+import {FooterContainer} from "./Footer.styles";
+
+const FooterlLinksContainer = ({title, links}) => {
     return (
-        <>
-           
+        <div className="footer-links-container">
+            <h2>{title}</h2>
+            <ul>
+                {links.map((link, index) => (
+                    <li key={index}>
+                        <a href={link.url}>
+							{link.name}
+                            {/* <img src={link.image} alt={link.alt} /> */}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+};
+const FooterlLinksContainerIcons = ({title, links}) => {
+    return (
+        <div className="footer-links-container">
+            <h2>{title}</h2>
+            <ul className="image-footer-atag">
+                {links.map((link, index) => (
+                    <li key={index}>
+                        <a target="_blank" href={link.url}>
+                            <img className="image-footer-icons" src={link.image} alt={link.alt} />
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+};
 
-            <div className="footer_container">
-                    <div className="div_event">
-                <div className="events">
-                    <div className="childofevents">
-                   
-                        <h1 id="h1">Home</h1>
-                        <a className="footer-a" href="/">About us</a>
-                        <a className="footer-a" href="/">COLLEGE</a>
-                        <a className="footer-a" href="/">HOME</a>
-                       
+function Footer() {
+    return (
+        <FooterContainer>
+            <div className="footer-top">
+                <div className="footer-logo-container">
+                    <div>
+                        <img src={Trojans} alt="Trojans" />
                     </div>
-                    <div className="childofevents">
-                   
-                        <h1 id="h1">Events</h1>
-                        <a className="footer-a" href="/tech">Technical</a>
-                        <a className="footer-a" href="/nontech">Fun Technical</a>
-                        <a className="footer-a" href="/workshop">Workshop</a>
-                        <a className="footer-a" href='https://forms.gle/73pTcgqmeRREtKuR8' target="_blank">Register</a>
-
-                    </div>
-                    
-                    <div className="childofevents devo">
-                   
-                        <h1 id="h1">Developers</h1>
-                        <a className="footer-a" href="https://www.linkedin.com/in/vinay-saran-jj-b7861b22a/">Vinay Saran JJ</a>
-                        <a className="footer-a" href="https://www.linkedin.com/in/sameerul-hak-877194249/">Sameerul hak S</a>
-                        <a className="footer-a" href="https://www.linkedin.com/in/arunkumara03/">Arunkumar A</a>
-                        <a className="footer-a" href="https://www.linkedin.com/in/pawan-kalyan-6a2903218">Pawan Kalyan B</a>
-
-
-
-                       
-                    </div>
-                    </div>
-                    <div className="lap">
-                        <a className="footer-a" href="/"> <FaInstagramSquare size={32} /> </a>
-                        <a className="footer-a" href="/"> <FaLinkedin size={32} /></a>
-                        <a className="footer-a" href="/"><FaTwitterSquare size={32} /> </a>
-                    </div>
-                    <p className="footer_p">PS C:\CIT\INFORMATION TECHNOLOGY\TROJANS\@COPYRIGHTS</p>
+                    {/* <div>
+						<img src={Trojans} alt='Trojans' />
+					</div> */}
                 </div>
-                <div className="clg_logo">
-                <img src={citlogo} className="clg_img" alt="Trojans2023" /> 
+                <div>
+                    <FooterlLinksContainer
+                        title="Events"
+                        links={[
+                            {url: "/technical", name: "Technical"},
+                            {url: "/nontechnical", name: "Non - Technical"},
+                            {url: "/workshop", name: "Gaming"},
+                            {url: "/events", name: "Workshops"},
+                        ]}
+                    />
+                    <FooterlLinksContainer
+                        title="About"
+                        links={[
+                            {url: "/", name: "Trojans"},
+                            {url: "/", name: "Department"},
+                            {url: "/", name: "College"},
+                        ]}
+                    />
+                    <FooterlLinksContainerIcons
+                        title="Connect"
+                        links={[
+                            {
+                                url: "https://www.instagram.com/trojans_cit/",
+                                image: "https://img.icons8.com/ios/50/ffffff/instagram-new--v1.png",
+                                alt: "Instagram",
+                            },
+                            {
+                                url: "https://www.linkedin.com/in/trojans-cit-363404239/",
+                                image: "https://img.icons8.com/ios/50/ffffff/linkedin.png",
+                                alt: "LinkedIn",
+                            },
+                            {
+                                url: "https://www.youtube.com/channel/UC5pM39xn_AYsaldF2DPpI3A",
+                                image: "https://img.icons8.com/ios/50/ffffff/youtube-play--v1.png",
+                                alt: "Youtube",
+                            },
+                            {
+                                url: "/#contact",
+                                image: "https://img.icons8.com/material-outlined/50/ffffff/call-male.png",
+                                alt: "Contact Us",
+                            },
+                        ]}
+                    />
+
+                    <FooterlLinksContainer
+                        title="Guidelines"
+                        links={[
+                            {
+                                url: "/guidelines",
+                                name: "Terms and Conditions",
+                            },
+                        ]}
+                    />
                 </div>
-                <div className="mobile">
-                        <a className="footer-a" href="/"> <FaInstagramSquare size={32} /> </a>
-                        <a className="footer-a" href="/"> <FaLinkedin size={32} /></a>
-                        <a className="footer-a" href="/"><FaTwitterSquare size={32} /> </a>
+                <div className="footer-logo-container">
+                    {/* <div>
+                        <img src={Trojans} alt="Trojans" />
+                    </div> */}
+                    <div>
+                        <img className="citLogo" src={CIT} alt="CIT" />
                     </div>
-                <div className="terminal_img"><img src={image}  className="terminal_image"alt="Trojans2023" />
-</div>
+                </div>
             </div>
-        </> 
-    )
+            <div className="copyright">
+                <p>COPYRIGHT © TROJANS </p>
+            </div>
+        </FooterContainer>
+    );
 }
+
+export default Footer;

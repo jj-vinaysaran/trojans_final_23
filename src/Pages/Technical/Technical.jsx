@@ -148,7 +148,7 @@ eventtype:"/tech"} });
         <div className='titleofeventtype'>
           <h1 className='mobile-view'>{"< Technical Events />"}</h1>
         </div>
-        <h1 style={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" div "}</span><span className='tags'>{">"}</span></h1>
+        {/* <h1 style={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" div "}</span><span className='tags'>{">"}</span></h1> */}
         <div className='all-events'>
         {Nontechdatas.map((event, index) => (
             <div className='box-events' key={index}>
@@ -159,7 +159,7 @@ eventtype:"/tech"} });
           </div>
         ))}
         </div>
-        <h1 style={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" /div "}</span><span className='tags'>{">"}</span></h1>
+        {/* <h1 st/yle={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" /div "}</span><span className='tags'>{">"}</span></h1> */}
         </div>
       </div>
     )
