@@ -5,6 +5,7 @@
 	z-index: 999;
     justify-content: center;
     align-items: center;
+	overflow: hidden;
 }
 .mbp-mockup-wrapper {
 	z-index: 999;
@@ -41,7 +42,9 @@ align-items: center;
 /* background-color:rgb(36, 36, 34); */
 }
 .logo_trojans{
-    width: 20%;
+    width: 30%;
+	padding-left: 10px;
+	height: 80%;
     display: flex;
 
 }
@@ -53,7 +56,7 @@ align-items: center;
 .whatsapp_navbar{
     height: 10%;
     /* background-color:red; */
-	background-color: #202c33;
+	background-color: #202033;
     display: flex;
     justify-content: space-between;
 }
@@ -74,7 +77,8 @@ align-items: center;
 }
 .whatsapp_main{
     height: 80%;
-    background-color:#111f28;
+    background-color:#141128;
+	/* background-color: red; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -87,6 +91,38 @@ align-items: center;
 	color: #56f2e6;
 	border-bottom: 2px solid green;
 }
+#first{
+	align-self: flex-start;
+	background-color:#140446;
+	animation: moveToLeft 3s ease-in-out forwards;
+}
+@keyframes moveToLeft {
+    0% {
+      transform: translateX(-200px); /* Move to the left */
+    }
+    100% {
+      transform: translateX(0); /* Original position */
+    }
+  }
+#second{
+	align-self: flex-end;
+	background-color:#140446;
+	animation: moveToRight 3s ease-in-out forwards;
+}
+
+#third{
+	align-self: flex-start;
+	background-color:#140446;
+	animation: moveToLeft 3s ease-in-out forwards;
+}
+@keyframes moveToRight {
+    0% {
+      transform: translateX(200px); /* Move to the right */
+    }
+    100% {
+      transform: translateX(0); /* Original position */
+    }
+  }
 .inside_msg{
 	width: 100%;
 	display: flex;
@@ -94,49 +130,35 @@ align-items: center;
 	align-items: center;
 	/*gap: 30px;
 	*/justify-content: center;
-	background-color: #005c4b;
-	/*background-color:red;
-	*/height: 100%;
+
+	height: 100%;
 	border-radius:10px ;
 	-webkit-border-radius:10px ;
 	-moz-border-radius:10px ;
 	-ms-border-radius:10px ;
 	-o-border-radius:10px ;
+	color: white;
+	/* background-color:honeydew; */
+	height: 80%;
 
 }
 .trojans{
 	font-family:Arial, Helvetica, sans-serif;
 }
-.butns{
-	font-size: 3rem;  
-	background-color: white;
-	margin: 10px 0px; 
-	width: 90%; 
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	color: black; 
-	padding: 10px; 
-	border-radius:10px ; 
-	text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; 
-	text-align: center; 
-	text-decoration: none; 
-	-webkit-border-radius:10px ; 
-	-moz-border-radius:10px ; 
-	-ms-border-radius:10px ; 
-	-o-border-radius:10px ;
+.butns{ font-size: 3rem;  background-color: white;margin: 10px 0px; width: 90%; font-weight: bold; color: black; padding: 10px; border-radius:10px ; text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; text-align: center; text-decoration: none; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
 
 }
 .butns:hover{
 opacity: 0.7;
 }
 .message_whatsapp{	
-	height:85%;
+	height:90%;
+
 	width: 42%;
-	/*justify-self:flex-end;
-	*/align-self:flex-end;
-	background-color:#005c4b;
-	/*background-color: red;
-	*/margin: 20px;
+align-self:flex-end;
+	background-color:#0C0032;
+
+	margin: 10px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -146,13 +168,12 @@ opacity: 0.7;
 	-moz-border-radius:10px ;
 	-ms-border-radius:10px ;
 	-o-border-radius:10px ;
-	box-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
 
 }
 .time_wa{
 	align-self: end;
 	font-size: 20px;
-	margin: 10px;
+	/* margin: 10px; */
 	position: relative;
 	/* background-color:red; */
 }
@@ -166,6 +187,7 @@ opacity: 0.7;
 	border-radius: 4px;
 	align-self: center;
 	background-color: #2a3942;
+	/* background-color:green; */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;
@@ -432,47 +454,73 @@ opacity: 0.7;
 		border-bottom: 2px solid green;
 	}
 	.butns{
-		font-size: 8vw;
-		background-color: #037560;
+		font-size: 5vw;
+		/* background-color: #037560; */
 		/* background-color: yellow; */
-		margin: 14px 10px;
-		width: 90%;
-		padding: 10px;
+		/* margin: 14px 10px; */
+		/* width: 90%; */
+		/* padding: 10px; */
 		/* color: rgb(48, 238, 241); */
 		/* font-size: 40px;	 */
 		text-align: center;
 		text-decoration: none;
-		color: black;
-		background-color: #fff;
+		color: white;
+		/* background-color: #fff; */
 		/* box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf; */
 
 		}
+		.whatsapp_main{
+			overflow: hidden;
+		}
 		.type{
 			width: 80%;
-			padding: 10px;
-			font-size: 13px;
+			/* padding: 10px; */
+			font-size: 10px;
 			border-radius: 4px;
 			align-self: center;
 			background-color: #2a3942;
+			/* background-color: #fff; */
 			-webkit-border-radius: 4px;
 			-moz-border-radius: 4px;
 			-ms-border-radius: 4px;
 			-o-border-radius: 4px;
 		}
+		.time_wa{
+			align-self: end;
+			font-size: 20px;
+			/* margin: 10px; */
+			position: relative;
+			/* background-color:red; */
+		}
 		.message_whatsapp{
-			height:85%;
-			width: 70%;
-			/* justify-self:flex-end; */
+			width: 60%;
+			height:30%;
 			align-self:flex-end;
-			background-color:#005c4b;
-			/* background-color: red; */
-			margin: 20px;
+			padding: 10px;
 			display: flex;
 			align-items: center;
 			flex-direction: column;
 			z-index: 10;
-			/* border: 2px solid black; */
-			box-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px;
+			
+		}
+		.inside_msg{
+			width: 90%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/*gap: 30px;
+			*/justify-content: center;
+		
+			height: 100%;
+			border-radius:10px ;
+			-webkit-border-radius:10px ;
+			-moz-border-radius:10px ;
+			-ms-border-radius:10px ;
+			-o-border-radius:10px ;
+			color: white;
+			/* background-color:honeydew; */
+			height: 70%;
+		
 		}
 		.logo_name{
 			display: flex;
