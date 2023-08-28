@@ -149,6 +149,7 @@ height: 100%;
 }
 .title_name{
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   color: #5d4cf5;
   /* text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; */
   /* color: white; */
