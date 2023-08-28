@@ -34,13 +34,24 @@ function EventHome() {
               </div>
             </div>
             <div className='whatsapp_main'>
-				<div className='title_pages'>Events and Workshop</div>
-				<div className='message_whatsapp'>
+				{/* <div className='title_pages'>Events and Workshop</div> */}
+				<div className='message_whatsapp' id="first" >
 					<div className='inside_msg'>
 						<Link to="/events" className='butns'>Events</Link>
-						<Link to="/workshop" className='butns'>Workshop</Link>
 					</div>
 					<h5 className='time_wa'>now <img src={bluetick} className='bluetick'/></h5>
+				</div>
+				<div className='message_whatsapp' id="second">
+					<div className='inside_msg'>
+							<Link to="/workshop" className='butns'>Workshop</Link>
+						</div>
+						<h5 className='time_wa'>now <img src={bluetick} className='bluetick'/></h5>
+				</div>
+				<div className='message_whatsapp' id="third">
+					<div className='inside_msg '>
+							<Link to="/online" className='butns'>Gaming</Link>
+						</div>
+						<h5 className='time_wa'>now <img src={bluetick} className='bluetick'/></h5>
 				</div>
 			</div>
             <div className='whatsapp_footer'>
@@ -89,13 +100,24 @@ function EventHome() {
               </div>
             </div>
             <div className='whatsapp_main'>
-				<div className='title_pages'>Events and Workshop</div>
-				<div className='message_whatsapp'>
+				{/* <div className='title_pages'>Events and Workshop</div> */}
+				<div className='message_whatsapp' id="first" >
 					<div className='inside_msg'>
 						<Link to="/events" className='butns'>Events</Link>
-						<Link to="/workshop" className='butns'>Workshop</Link>
 					</div>
 					<h5 className='time_wa'>now <img src={bluetick} className='bluetick'/></h5>
+				</div>
+				<div className='message_whatsapp' id="second">
+					<div className='inside_msg'>
+							<Link to="/workshop" className='butns'>Workshop</Link>
+						</div>
+						<h5 className='time_wa'>now <img src={bluetick} className='bluetick'/></h5>
+				</div>
+				<div className='message_whatsapp' id="third">
+					<div className='inside_msg '>
+							<Link to="/online" className='butns'>Gaming</Link>
+						</div>
+						<h5 className='time_wa'>now <img src={bluetick} className='bluetick'/></h5>
 				</div>
 			</div>
             <div className='whatsapp_footer'>

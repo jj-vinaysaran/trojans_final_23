@@ -15,7 +15,7 @@
     top: 20px;
     font-size: 3.5vw;
     color: white;
-    font-family: 'Chakra Petch', sans-serif;    
+    font-family: 'Helvetica';    
   }
   .home_tags{
     font-size: 4vw;
@@ -38,7 +38,7 @@
     list-style: none;
     font-weight: bold;
     background: #11d6f4;
-    /* box-shadow: 0 0 5px #13bad8, 0 0 15px #1aa9bf; */
+    font-family: 'Helvetica';
   }
   .register-button-home:hover {
     background-color: #1ffbfe;
@@ -53,7 +53,7 @@
   }
   #dept-intro {
     color: white;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Helvetica';
     font-size: 3.5vw;
   
     position: relative;
@@ -75,7 +75,7 @@
     position: relative;
     bottom: 2%;
     left: 1%;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Helvetica';
   }
   .tags_intro{
     font-size: 2vw;
@@ -93,7 +93,9 @@
     font-size: 25px;
     color: white;
     padding: 7px;
+    font-family: 'Helvetica';
     font-weight: 100;
+
   }
   .scroll_img {
     width: 50px;
@@ -136,8 +138,7 @@
       text-decoration: none;
       list-style: none;
       font-weight: bold;
-      /* box-shadow: 0 0 5px #1ce1ff, 0 0 15px #1ce1ff, 0 0 30px #1ce1ff,
-        0 0 60px #1ce1ff; */
+     
     }
     .register-button-home:hover {
       background-color: #1ce1ff;
