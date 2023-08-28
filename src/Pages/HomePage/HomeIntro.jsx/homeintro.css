@@ -14,7 +14,7 @@
     position: relative;
     top: 20px;
     font-size: 3.5vw;
-    color: white;
+    color: #3500D3;
     font-family: 'Chakra Petch', sans-serif;    
   }
   .home_tags{
@@ -37,11 +37,13 @@
     text-decoration: none;
     list-style: none;
     font-weight: bold;
-    background: #11d6f4;
+    background: #3500D3;
+    color: whitesmoke;
     /* box-shadow: 0 0 5px #13bad8, 0 0 15px #1aa9bf; */
   }
   .register-button-home:hover {
-    background-color: #1ffbfe;
+    color: #3500D3;
+    background-color: #ffffff;
     opacity: 0.7;
   }
   #logo_trojans {
@@ -124,8 +126,8 @@
       font-size: 7vw;
     }
     .register-button-home {
-      color: rgb(0, 0, 0);
-      background-color: #1ce1ff;
+      color: rgb(255, 255, 255);
+      background-color: #3500D3;
       position: relative;
       top: 17%;
       padding: 4px 13px;
@@ -140,7 +142,8 @@
         0 0 60px #1ce1ff; */
     }
     .register-button-home:hover {
-      background-color: #1ce1ff;
+      background-color: #fff;
+      color: #3500D3;
       opacity: 0.7;
     }
     #logo_trojans {

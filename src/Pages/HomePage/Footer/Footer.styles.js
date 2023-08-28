@@ -10,7 +10,7 @@ export const FooterContainer = styled.section`
 	background-color: #100c0c;
 	color: white;
 	text-align: center;
-	box-shadow: 0 5px 30px #03e9f4;
+	box-shadow: 0 5px 30px #240090;
 
 	.footer-top {
 		padding: 0 6rem;
@@ -44,14 +44,12 @@ export const FooterContainer = styled.section`
 
 		img {
 			width: 8vw;
-
 			@media (max-width: 1050px) {
 				width: 14vw;
 			}
 		}
 		.citLogo {
 			width: 11vw;
-
 			@media (max-width: 1050px) {
 				width: 14vw;
 			}
@@ -101,7 +99,7 @@ export const FooterContainer = styled.section`
 				}
 
 				ul a {
-					color: #fff;
+					color: white;
 					text-decoration: none;
 					padding: 0.5rem;
 					display: block;

@@ -53,6 +53,7 @@ export default function Contactus(){
             </div>
             <div className="register">
                         <h1 id="feedback">Your Opinion</h1>
+                        {/* <p className="op">Feel free to feedback us</p> */}
                         <form action="https://formspree.io/f/mnqkpogd"  method="POST" className="form_contactus">
                             <input type="text" name="name" required placeholder="Your Name"/>
                             <input type="text" name="email" required placeholder="Email ID"/>
