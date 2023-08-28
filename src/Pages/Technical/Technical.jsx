@@ -151,12 +151,20 @@ eventtype:"/tech"} });
         {/* <h1 style={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" div "}</span><span className='tags'>{">"}</span></h1> */}
         <div className='all-events'>
         {Nontechdatas.map((event, index) => (
-            <div className='box-events' key={index}>
-              <h1 style={{margin:"10px"}}></h1>
-            <img className="event-image" src={event.imageSrc} alt="Event" />
-            <h2 className='closetag tags'></h2>
-            <h2 className='view-cont-more'  onClick={()=>sharedata(event)}><a className='view-more-button'>{event.buttonText}</a></h2>
+          <div class="card" key={index} >
+          <p class="card-title">{event.eventname}</p>
+          <div className='time-dur'>
+            <p className='time'>Time : {event.duration} </p>
+            <p className='dur'>Time : {event.timing} </p>
           </div>
+          <img className="event-image" src={event.imageSrc} alt="Event" />
+          <p class="card-text">
+            <span onClick={()=>sharedata(event)}>View More</span>
+            <svg class="arrow-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+            </svg>
+          </p>
+        </div>
         ))}
         </div>
         {/* <h1 st/yle={{margin:"10px"}}><span className='tags'>{"<"}</span><span className='tagname'>{" /div "}</span><span className='tags'>{">"}</span></h1> */}
@@ -166,3 +174,12 @@ eventtype:"/tech"} });
   }
 
 export default Technical
+
+/*
+<div className='box-events' key={index}>
+              <h1 style={{margin:"10px"}}></h1>
+            <img className="event-image" src={event.imageSrc} alt="Event" />
+            <h2 className='closetag tags'></h2>
+            <h2 className='view-cont-more'  onClick={()=>sharedata(event)}><a className='view-more-button'>{event.buttonText}</a></h2>
+          </div>
+          */

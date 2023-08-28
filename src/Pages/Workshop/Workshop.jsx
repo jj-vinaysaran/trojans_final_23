@@ -138,7 +138,7 @@ function Workshop() {
               
           <div class="work_card__container">
             {workshopdata.map((event, index) => (
-              <article class="work_card__article work_card__orange" key={index}>
+              <article class="work_card__article work_card" key={index}>
                 <div class="work_card__scale-1"></div>
                 <div class="work_card__scale-2"></div>
 

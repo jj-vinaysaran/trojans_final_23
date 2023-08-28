@@ -35,29 +35,17 @@ color: white;
       0 0 151px #0fa;
     z-index: 2; 
 }
-.box-events{ background-color:rgba(96, 95, 95, 0.1); width: fit-content; display: flex; justify-content: center; align-items: start ; flex-direction: column; margin: 20px; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
-    box-shadow: 0 0 5px #31afaf, 0 0 15px #31afaf, 0 0 15px #31afaf, 0 0 6px #31afaf;
-      margin-inline: 30px;
-      padding: 10px;
-    }
-.event-image{
-    margin: 10px;
-    width:390px;
-    height: 400px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
+
+
 .all-events{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding:60px;
     width: fit-content;
     align-items: center;
     justify-content:center;
-    gap: 0;
+    gap: 20px;
     
 }
 .view-cont-more{
@@ -175,4 +163,181 @@ color: white;
         margin: 10px;
         font-size: 20px;
     }
+}
+
+
+
+
+/*===================new===========*/
+
+
+.card {
+  position: relative;
+  width: 420px;
+  height: 450px;
+  box-sizing: border-box;
+  background-color: rgba(33,33,33,0.6);
+  margin:2rem;
+  border: 5px solid #222;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          rgba(0, 0, 0, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: rgba(193, 44, 223, 0.19) 0px 10px 20px,
+          rgba(193, 44, 223, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: 5px solid #b671d6;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.card-title {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  cursor: default;
+}
+
+.card-des {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  cursor: default;
+}
+
+.card-text {
+  position: absolute;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  right: 20px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  animation: textanimate 0.8s alternate infinite;
+  cursor: pointer;
+}
+
+.card-title{
+  position: absolute;
+  margin: 0;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #3500D3;
+  left: 12px;
+  top: 18rem;
+  gap: 3px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.time-dur{
+  display: flex;
+  gap:10px;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 5px;
+  left: 18px;
+  top: 22rem;
+
+}
+
+.time{
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #3500D3 ;
+  height: fit-content;
+  padding:5px;
+}
+
+.dur{
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #3500D3 ;
+  height: fit-content;
+  padding:5px;
+}
+
+.time:hover{
+  background-color: #3500D3;
+  font-size: 200px;
+}
+
+
+.card:hover > .card-text {
+  transition: ease-in 2s;
+  opacity: 1;
+}
+
+.card:hover > .card-title {
+  opacity: 2;
+  transition: ease-out 1s;
+
+}
+
+.card:hover > .time {
+  transition: ease-in 2s;
+  opacity: 1;
+}
+
+
+
+.card .event-image{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+.event-image:hover{
+  opacity: 0.2;
+  scale: 125%;
+}
+
+
+
+
+
+
+@keyframes textanimate {
+  0% {
+    right: 20px;
+  }
+
+  100% {
+    right: 10px;
+  }
+}
+
+.arrow-icon {
+  font-size: 15px;
+  font-weight: 500;
 }
