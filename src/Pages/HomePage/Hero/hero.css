@@ -120,7 +120,7 @@
   .body__row-folder {
       margin:20px;
       font-family: 'Cinzel', serif;   
-       color: #3500D3;
+       color: #56f2e6;
     margin-right: 1rem;
     font-size: 3vw;
   }
@@ -142,6 +142,7 @@
     color: #3500D3;
   }
   .body__row-git--author {
+
     color: #2d9cdb;
   }
   .body__row-result {
@@ -152,7 +153,7 @@
     color: white;
   }
   .next_page{
-    color: #3500D3;
+      color:green;
       /*margin:40px;
       *//*margin-left:5%;
       */padding: 10px;
@@ -199,8 +200,10 @@
       margin:1px;
       padding:10px;
       font-size:18px;
+      font-family: 'Roboto' sans-serif;
       line-height: 1.5rem;
       text-align: justify;
+
     }
   
     .next_page{
